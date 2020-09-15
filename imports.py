@@ -32,111 +32,57 @@ from monty.io import zopen
 from pptx import Presentation
 from pptx.util import Inches
 
+def warn(*args, **kwargs):
+    pass
+import warnings
+warnings.warn = warn
+
 from scipy.stats import linregress, skew, describe
 from scipy.interpolate import RegularGridInterpolator
-from sklearn.metrics import max_error, mean_absolute_error, mean_squared_error
+from sklearn.metrics import max_error, mean_absolute_error, mean_squared_error, average_precision_score, \
+                            explained_variance_score, mean_squared_log_error
+from sklearn.linear_model import LinearRegression, SGDRegressor, Ridge, Lasso, ElasticNet
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.model_selection import cross_val_score, GridSearchCV
+
+from pint import UnitRegistry
+ureg = UnitRegistry()
+AVOGADRO = 6.02214076e23 # https://en.wikipedia.org/wiki/Avogadro_constant
+KJMOLtoEV = 0.01036410 # http://wild.life.nctu.edu.tw/class/common/energy-unit-conv-table.html
+ureg.define('atom = 1/{} mol'.format(AVOGADRO))
+Quantity = ureg.Quantity
+
+def sample(d, thresh=0.05):
+    for k in d.keys():
+        if np.random.random_sample() < thresh:
+            print(k, ':', d[k])
 
 print('Imports successfully loaded')
 
 
-# def index_mask_from_objects2(chgcar, potcar=None, aeccar0=None, aeccar2=None):
-#     """
-#     Convenience method to retrieve an index mask Chgcar from running 
-#     Bader analysis on a set of pymatgen Chgcar and Potcar objects.
-
-#     This method will:
-
-#     1. If aeccar objects are present, constructs a temporary reference
-#     file as AECCAR0 + AECCAR2
-#     2. Runs Bader analysis twice: once for charge, and a second time
-#     for the charge difference (magnetization density).
-
-#     :param chgcar: Chgcar object
-#     :param potcar: (optional) Potcar object
-#     :param aeccar0: (optional) Chgcar object from aeccar0 file
-#     :param aeccar2: (optional) Chgcar object from aeccar2 file
-#     :return: Chgcar containing index masks
-#     """
-
-#     with ScratchDir(".") as temp_dir:
-
-#         if aeccar0 and aeccar2:
-#             # construct reference file
-#             chgref = aeccar0 + aeccar2
-#             chgref_path = os.path.join(temp_dir, 'CHGCAR_ref')
-#             try:
-#                 chgref.write_file(chgref_path)
-#             except ValueError:
-#                 warnings.warn('Unable to  write CHGREF file. Won\'t be used in Bader analysis.')
-#         else:
-#             chgref_path = None
-
-#         chgcar.write_file('CHGCAR')
-#         chgcar_path = os.path.join(temp_dir, 'CHGCAR')
-
-#         if potcar:
-#             potcar.write_file('POTCAR')
-#             potcar_path = os.path.join(temp_dir, 'POTCAR')
-#         else:
-#             potcar_path = None
-            
-# #         ba = BaderAnalysis(chgcar_path, potcar_filename=potcar_path, 
-# #                            chgref_filename=chgref_path, atomic_partitions=True)
-# #         return ba.index_mask
-            
-#         try:
-#             ba = BaderAnalysis(chgcar_path, potcar_filename=potcar_path, 
-#                                chgref_filename=chgref_path, atomic_partitions=True)
-#             return ba.index_mask
-#         except:
-#             warnings.warn('Bader analysis failed. Returning None.')
-    
-# print('index_mask_from_objects2 succesfully loaded')
-
-# def index_mask_from_objects4(chgcar, potcar=None, aeccar0=None, aeccar2=None):
-#     """
-#     Convenience method to retrieve an index mask Chgcar from running 
-#     Bader analysis on a set of pymatgen Chgcar and Potcar objects.
-
-#     This method will:
-
-#     1. If aeccar objects are present, constructs a temporary reference
-#     file as AECCAR0 + AECCAR2
-#     2. Runs Bader analysis twice: once for charge, and a second time
-#     for the charge difference (magnetization density).
-
-#     :param chgcar: Chgcar object
-#     :param potcar: (optional) Potcar object
-#     :param aeccar0: (optional) Chgcar object from aeccar0 file
-#     :param aeccar2: (optional) Chgcar object from aeccar2 file
-#     :return: Chgcar containing index masks
-#     """
-
-#     with ScratchDir(".") as temp_dir:
-
-#         if aeccar0 and aeccar2:
-#             # construct reference file
-#             chgref = aeccar0 + aeccar2
-#             chgref_path = os.path.join(temp_dir, 'CHGCAR_ref')
-#             try:
-#                 chgref.write_file(chgref_path)
-#             except ValueError as e:
-#                 warnings.warn('Unable to  write CHGREF file. Won\'t be used in Bader analysis.')
-#                 print(e)
-#         else:
-#             chgref_path = None
-
-#         chgcar.write_file('CHGCAR')
-#         chgcar_path = os.path.join(temp_dir, 'CHGCAR')
-
-#         if potcar:
-#             potcar.write_file('POTCAR')
-#             potcar_path = os.path.join(temp_dir, 'POTCAR')
-#         else:
-#             potcar_path = None
-            
-#         ba = BaderAnalysis(chgcar_path, potcar_filename=potcar_path, 
-#                            chgref_filename=chgref_path, atomic_partitions=True)
-#         return ba.index_mask
-    
-# print('index_mask_from_objects4 succesfully loaded')
+# def experimental_formation_energy(f):
+#     janaf_series = janaf_data.loc[janaf_data.Formula==f]
+#     flipped = flip_formula(f)
+#     janaf_series_f = janaf_data.loc[janaf_data.Formula==flipped]
+#     if not janaf_series.empty:
+#         target = None
+#         for phase in janaf_phase_preferences:
+#             target = janaf_series.loc[janaf_data.Phase==phase]
+#             if not target.empty:
+#                 break
+# #         if len(target['DeltaH_298'].values) > 1:
+# #             print(f, target, '\n--------------------------------\n')
+#         formation_energy = target['DeltaH_298'].values[0] / 1000 * KJMOLtoEV
+#     elif not janaf_series_f.empty:
+#         target = None
+#         for phase in janaf_phase_preferences:
+#             target = janaf_series_f.loc[janaf_data.Phase==phase]
+#             if not target.empty:
+#                 break
+#         if len(target['DeltaH_298'].values) > 1:
+#             print(f, target, '\n--------------------------------\n')
+#         formation_energy = target['DeltaH_298'].values[0] / 1000 * KJMOLtoEV
+#     else:
+#         formation_energy = mp_expt_data[f]
+#     return formation_energy

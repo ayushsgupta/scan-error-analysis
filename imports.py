@@ -1,4 +1,5 @@
 import os
+import sys
 from pathlib import Path
 import re
 import numpy as np
@@ -41,10 +42,16 @@ from scipy.stats import linregress, skew, describe
 from scipy.interpolate import RegularGridInterpolator
 from sklearn.metrics import max_error, mean_absolute_error, mean_squared_error, average_precision_score, \
                             explained_variance_score, mean_squared_log_error
+from sklearn.metrics import make_scorer, accuracy_score, f1_score, precision_score
 from sklearn.linear_model import LinearRegression, SGDRegressor, Ridge, Lasso, ElasticNet
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import cross_val_score, GridSearchCV
+from sklearn.preprocessing import StandardScaler
+from sklearn.inspection import permutation_importance
+from sklearn.base import clone
+from sklearn.manifold import TSNE
 
 from pint import UnitRegistry
 ureg = UnitRegistry()

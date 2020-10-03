@@ -3,6 +3,8 @@ from sklearn.ensemble.forest import _generate_unsampled_indices
 import numpy as np
 import pandas as pd
 
+from matminer.featurizers.composition import ElementFraction
+
 def dropcol_importances(model, X_train, y_train, X_valid=None, y_valid=None, metric=None, sample_weights=None):
     if X_valid is None: 
         X_valid = X_train

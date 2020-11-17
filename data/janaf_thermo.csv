@@ -1,0 +1,670 @@
+,Formula,Name,Phase,Link,Cp_0,Cp_298,S_0,S_298,DeltaH_0,DeltaH_298,DeltaG_0,DeltaG_298
+0,Al,Aluminum,ref,https://janaf.nist.gov/tables/Al-001.txt,0.0,24.209,0.0,28.275,0.0,0.0,0.0,0.0
+1,Al,Aluminum,cr,https://janaf.nist.gov/tables/Al-002.txt,0.0,24.209,0.0,28.275,0.0,0.0,0.0,0.0
+2,Al,Aluminum,"cr,l",https://janaf.nist.gov/tables/Al-004.txt,0.0,24.209,0.0,28.275,0.0,0.0,0.0,0.0
+3,AlBr3,Aluminum Bromide,cr,https://janaf.nist.gov/tables/Al-010.txt,0.0,100.57799999999999,0.0,180.21599999999998,-491895.99999999994,-511285.0,-491895.99999999994,-488515.0
+4,AlBr3,Aluminum Bromide,"cr,l",https://janaf.nist.gov/tables/Al-012.txt,0.0,100.57799999999999,0.0,180.21599999999998,-491895.99999999994,-511285.0,-491895.99999999994,-488515.0
+5,AlClO,Aluminum Chloride Oxide,cr,https://janaf.nist.gov/tables/Al-019.txt,,56.902,,54.391999999999996,,-793286.0,,-737235.0
+6,AlCl3,Aluminum Chloride,cr,https://janaf.nist.gov/tables/Al-025.txt,0.0,91.12799999999999,0.0,109.286,-704300.0,-705632.0,-704300.0,-630018.0
+7,AlCl3,Aluminum Chloride,"cr,l",https://janaf.nist.gov/tables/Al-027.txt,0.0,91.12799999999999,0.0,109.286,-704300.0,-705632.0,-704300.0,-630018.0
+8,AlCl4K,Potassium Tetrachloroaluminate,cr,https://janaf.nist.gov/tables/Al-029.txt,,156.482,,196.648,,-1196624.0,,-1094521.0
+9,AlCl4Na,Sodium Tetrachloroaluminate,cr,https://janaf.nist.gov/tables/Al-030.txt,,154.975,,188.28,,-1142232.0,,-996454.0
+10,AlCl6K3,Potassium Hexachloroaluminate,cr,https://janaf.nist.gov/tables/Al-031.txt,,248.90599999999998,,376.56,,-2092000.0,,-1938463.0
+11,AlCl6Na3,Sodium Hexachloroaluminate,cr,https://janaf.nist.gov/tables/Al-032.txt,,244.136,,347.272,,-1979032.0000000002,,-1828583.9999999998
+12,AlF3,Aluminum Fluoride,cr,https://janaf.nist.gov/tables/Al-041.txt,0.0,75.132,0.0,66.484,-1504272.0000000002,-1510424.0,-1504272.0000000002,-1431122.9999999998
+13,AlF3,Aluminum Fluoride,"cr,l",https://janaf.nist.gov/tables/Al-043.txt,0.0,75.132,0.0,66.484,-1504272.0000000002,-1510424.0,-1504272.0000000002,-1431122.9999999998
+14,AlF6K3,Potassium Hexafluoraluminate,cr,https://janaf.nist.gov/tables/Al-048.txt,,222.798,,284.512,,-3326280.0,,-3163447.0
+15,AlF6Li3,Lithium Hexafluoroaluminate,cr,https://janaf.nist.gov/tables/Al-049.txt,0.0,202.50599999999997,0.0,187.891,-3370866.0,-3383600.9999999995,-3370866.0,-3223790.0
+16,AlF6Li3,Lithium Hexafluoroaluminate,"cr,l",https://janaf.nist.gov/tables/Al-051.txt,0.0,202.50599999999997,0.0,187.891,-3370866.0,-3383600.9999999995,-3370866.0,-3223790.0
+17,AlF6Na3,"Cryolite, Alpha",cr,https://janaf.nist.gov/tables/Al-052.txt,0.0,215.727,0.0,238.467,-3304649.0000000005,-3316908.0,-3304649.0000000005,-3152167.9999999995
+18,AlF6Na3,"Cryolite, Beta",cr,https://janaf.nist.gov/tables/Al-053.txt,,194.72299999999998,,284.881,,-3288781.0,,-3137880.0
+19,AlF6Na3,Cryolite,"cr,l",https://janaf.nist.gov/tables/Al-055.txt,0.0,215.727,0.0,238.467,-3304649.0000000005,-3316908.0,-3304649.0000000005,-3152167.9999999995
+20,H4AlLi,Lithium Tetrahydroaluminate,cr,https://janaf.nist.gov/tables/Al-062.txt,,86.4,,87.86399999999999,,-117152.0,,-48323.0
+21,AlI3,Aluminum Iodide,cr,https://janaf.nist.gov/tables/Al-064.txt,,98.91,,196.104,,-302922.0,,-301018.0
+22,AlI3,Aluminum Iodide,"cr,l",https://janaf.nist.gov/tables/Al-066.txt,,98.91,,196.104,,-302922.0,,-301018.0
+23,AlLiO2,Lithium Aluminum Oxide,cr,https://janaf.nist.gov/tables/Al-068.txt,0.0,67.777,0.0,53.313,-1180523.0000000002,-1188674.0,-1180523.0000000002,-1126303.0
+24,AlLiO2,Lithium Aluminum Oxide,"cr,l",https://janaf.nist.gov/tables/Al-070.txt,0.0,67.777,0.0,53.313,-1180523.0000000002,-1188674.0,-1180523.0000000002,-1126303.0
+25,AlN,Aluminum Nitride,cr,https://janaf.nist.gov/tables/Al-071.txt,0.0,30.096999999999998,0.0,20.142,-312980.0,-317984.00000000006,-312980.0,-286995.0
+26,AlNaO2,Sodium Aluminum Oxide,cr,https://janaf.nist.gov/tables/Al-073.txt,0.0,73.638,0.0,70.4,-1137319.0,-1133195.0,-1137319.0,-1069248.0
+27,Al2BeO4,Beryllium Aluminum Oxide,cr,https://janaf.nist.gov/tables/Al-081.txt,0.0,105.38,0.0,66.291,-2285491.0,-2300782.0,-2285491.0,-2178542.0
+28,Al2BeO4,Beryllium Aluminum Oxide,"cr,l",https://janaf.nist.gov/tables/Al-083.txt,0.0,105.38,0.0,66.291,-2285491.0,-2300782.0,-2285491.0,-2178542.0
+29,Al2Cl9K3,Potassium Aluminum Chloride,cr,https://janaf.nist.gov/tables/Al-086.txt,,337.23,,468.608,,-2860182.0000000005,,-2625893.0
+30,Al2MgO4,Magnesium Aluminum Oxide,cr,https://janaf.nist.gov/tables/Al-089.txt,0.0,116.198,8.075,88.69200000000001,-2283075.0,-2299107.9999999995,-2283075.0,-2176621.0
+31,Al2MgO4,Magnesium Aluminum Oxide,"cr,l",https://janaf.nist.gov/tables/Al-091.txt,0.0,116.198,8.075,88.69200000000001,-2283075.0,-2299107.9999999995,-2283075.0,-2176621.0
+32,Al2O3,"Aluminum Oxide, Alpha",cr,https://janaf.nist.gov/tables/Al-096.txt,0.0,79.015,0.0,50.95,-1663608.0,-1675692.0,-1663608.0,-1582275.0
+33,Al2O3,"Aluminum Oxide, Delta",cr,https://janaf.nist.gov/tables/Al-097.txt,,81.385,,50.626000000000005,,-1666487.0,,-1572974.0
+34,Al2O3,"Aluminum Oxide, Gamma",cr,https://janaf.nist.gov/tables/Al-098.txt,,82.729,,52.3,,-1656864.0,,-1563850.0
+35,Al2O3,"Aluminum Oxide, Kappa",cr,https://janaf.nist.gov/tables/Al-099.txt,,80.753,,53.555,,-1662303.0,,-1569662.9999999998
+36,Al2O3,Aluminum Oxide,"cr,l",https://janaf.nist.gov/tables/Al-101.txt,0.0,79.015,0.0,50.95,-1663608.0,-1675692.0,-1663608.0,-1582275.0
+37,Al2O5Si,"Aluminum Silicate, Andalusite",cr,https://janaf.nist.gov/tables/Al-102.txt,0.0,122.755,0.0,93.221,-2575159.0,-2592072.0,-2575159.0,-2444482.0
+38,Al2O5Si,"Aluminum Silicate, Kyanite",cr,https://janaf.nist.gov/tables/Al-103.txt,0.0,121.751,0.0,83.815,-2576370.0,-2594331.0,-2576370.0,-2443937.0
+39,Al2O5Si,"Aluminum Silicate, Sillimanite",cr,https://janaf.nist.gov/tables/Al-104.txt,0.0,122.215,0.0,96.179,-2572519.0,-2589101.0,-2572519.0,-2442394.0
+40,Al2S3,Aluminum Sulfide,cr,https://janaf.nist.gov/tables/Al-105.txt,0.0,105.064,0.0,116.84700000000001,-647350.0,-651030.0,-647350.0,-640335.0
+41,Al3F14Na5,Chiolite,cr,https://janaf.nist.gov/tables/Al-106.txt,0.0,454.006,0.0,483.545,-7554691.999999999,-7581408.0,-7554691.999999999,-7200348.000000001
+42,Al3F14Na5,Chiolite,"cr,l",https://janaf.nist.gov/tables/Al-108.txt,0.0,454.006,0.0,483.545,-7554691.999999999,-7581408.0,-7554691.999999999,-7200348.000000001
+43,Al6BeO10,Beryllium Aluminum Oxide,cr,https://janaf.nist.gov/tables/Al-109.txt,0.0,265.186,0.0,175.55200000000002,-5585659.000000001,-5624133.000000001,-5585659.000000001,-5317254.0
+44,Al6BeO10,Beryllium Aluminum Oxide,"cr,l",https://janaf.nist.gov/tables/Al-111.txt,0.0,265.186,0.0,175.55200000000002,-5585659.000000001,-5624133.000000001,-5585659.000000001,-5317254.0
+45,Al6O13Si2,"Aluminum Silicate, Mullite",cr,https://janaf.nist.gov/tables/Al-112.txt,0.0,325.64099999999996,0.0,274.889,-6775166.0,-6819209.0,-6775166.0,-6441793.000000001
+46,Ar,Argon,ref,https://janaf.nist.gov/tables/Ar-001.txt,0.0,20.785999999999998,0.0,154.845,0.0,0.0,0.0,0.0
+47,B,Boron,ref,https://janaf.nist.gov/tables/B-001.txt,0.0,11.315,0.0,5.834,0.0,0.0,0.0,0.0
+48,B,"Boron, Beta-Rhombohedral",cr,https://janaf.nist.gov/tables/B-002.txt,0.0,11.315,0.0,5.834,0.0,0.0,0.0,0.0
+49,B,Boron,"cr,l",https://janaf.nist.gov/tables/B-004.txt,0.0,11.315,0.0,5.834,0.0,0.0,0.0,0.0
+50,BF4K,Potassium Tetrafluoroborate,cr,https://janaf.nist.gov/tables/B-041.txt,,114.48299999999999,,133.888,,-1886984.0,,-1784957.9999999998
+51,BF4K,Potassium Tetrafluoroborate,"cr,l",https://janaf.nist.gov/tables/B-043.txt,,114.48299999999999,,133.888,,-1886984.0,,-1784957.9999999998
+52,HBO2,Boric Acid,cr,https://janaf.nist.gov/tables/B-049.txt,,54.391999999999996,,48.953,,-802784.0,,-486200.99999999994
+53,H3BO3,Boric Acid,cr,https://janaf.nist.gov/tables/B-056.txt,0.0,81.337,0.0,88.743,-1080444.0,-1093990.0,-1080444.0,-968520.0
+54,H4BK,Potassium Tetrahydroborate,cr,https://janaf.nist.gov/tables/B-058.txt,0.0,96.571,0.0,106.60799999999999,-218190.0,-226898.0,-218190.0,-159738.0
+55,H4BLi,Lithium Tetrahydroborate,cr,https://janaf.nist.gov/tables/B-059.txt,0.0,82.539,0.0,75.815,-180391.0,-190464.00000000003,-180391.0,-124732.99999999999
+56,H4BNa,Sodium Tetrahydroborate,cr,https://janaf.nist.gov/tables/B-060.txt,0.0,86.48299999999999,0.0,101.387,-183530.0,-191835.99999999997,-183530.0,-127060.0
+57,BKO2,Potassium Borate,cr,https://janaf.nist.gov/tables/B-064.txt,0.0,67.028,0.0,79.98100000000001,-990083.0000000001,-994955.0,-990083.0000000001,-936616.0000000001
+58,BKO2,Potassium Borate,"cr,l",https://janaf.nist.gov/tables/B-066.txt,0.0,67.028,0.0,79.98100000000001,-990083.0000000001,-994955.0,-990083.0000000001,-936616.0000000001
+59,BLiO2,Lithium Borate,cr,https://janaf.nist.gov/tables/B-068.txt,0.0,60.371,0.0,51.731,-1013678.0,-1019222.0,-1013678.0,-963070.0
+60,BLiO2,Lithium Borate,"cr,l",https://janaf.nist.gov/tables/B-070.txt,0.0,60.371,0.0,51.731,-1013678.0,-1019222.0,-1013678.0,-963070.0
+61,BN,Boron Nitride,cr,https://janaf.nist.gov/tables/B-072.txt,0.0,19.719,0.0,14.795,-247993.0,-250914.00000000003,-247993.0,-225022.00000000003
+62,BNaO2,Sodium Borate,cr,https://janaf.nist.gov/tables/B-074.txt,0.0,65.94,0.0,73.538,-970998.0,-975709.0,-970998.0,-919388.9999999999
+63,BNaO2,Sodium Borate,"cr,l",https://janaf.nist.gov/tables/B-076.txt,0.0,65.94,0.0,73.538,-970998.0,-975709.0,-970998.0,-919388.9999999999
+64,BTi,Titanium Boride,cr,https://janaf.nist.gov/tables/B-082.txt,,29.673000000000002,,34.727,,-160247.0,,-159691.0
+65,B2Be3O6,Beryllium Borate,cr,https://janaf.nist.gov/tables/B-085.txt,,139.746,,100.416,,-3104361.0,,-2938883.0
+66,H4B2O4,Dihydroxyborane,cr,https://janaf.nist.gov/tables/B-089.txt,,116.19,,125.52,,-1410426.0000000002,,-1244118.0
+67,B2Mg,Magnesium Boride,cr,https://janaf.nist.gov/tables/B-092.txt,0.0,47.823,0.0,35.982,-91337.0,-91964.0,-91337.0,-89473.0
+68,B2O3,Boron Oxide,cr,https://janaf.nist.gov/tables/B-095.txt,0.0,62.588,0.0,53.953,-1265776.0,-1271936.0000000002,-1265776.0,-1192796.0
+69,B2O3,Boron Oxide,"cr,l",https://janaf.nist.gov/tables/B-097.txt,0.0,62.588,0.0,53.953,-1265776.0,-1271936.0000000002,-1265776.0,-1192796.0
+70,B2O4Pb,Lead Borate,cr,https://janaf.nist.gov/tables/B-099.txt,,107.11,,130.541,,-1556447.9999999998,,-1450245.0
+71,B2Ti,Titanium Boride,cr,https://janaf.nist.gov/tables/B-100.txt,0.0,44.278999999999996,0.0,28.485,-277811.0,-279491.0,-277811.0,-275334.0
+72,B2Ti,Titanium Boride,"cr,l",https://janaf.nist.gov/tables/B-102.txt,0.0,44.278999999999996,0.0,28.485,-277811.0,-279491.0,-277811.0,-275334.0
+73,B2Zr,Zirconium Boride,cr,https://janaf.nist.gov/tables/B-103.txt,0.0,48.242,0.0,35.941,-321314.0,-322586.0,-321314.0,-318234.00000000006
+74,B2Zr,Zirconium Boride,"cr,l",https://janaf.nist.gov/tables/B-105.txt,0.0,48.242,0.0,35.941,-321314.0,-322586.0,-321314.0,-318234.00000000006
+75,B3F3O3,Trifluoroboroxin,cr,https://janaf.nist.gov/tables/B-109.txt,,125.52,,217.56799999999998,,-2453916.0,,-2331126.0
+76,H3B3O3,Boroxin,cr,https://janaf.nist.gov/tables/B-111.txt,,98.324,,167.36,,-1262313.0,,-1156803.0
+77,B4K2O7,Potassium Borate,cr,https://janaf.nist.gov/tables/B-115.txt,,170.498,,208.363,,-3334230.0,,-3136756.0
+78,B4K2O7,Potassium Borate,"cr,l",https://janaf.nist.gov/tables/B-117.txt,,170.498,,208.363,,-3334230.0,,-3136756.0
+79,B4Li2O7,Lithium Borate,cr,https://janaf.nist.gov/tables/B-118.txt,,183.05,,155.645,,-3362262.0,,-3170290.9999999995
+80,B4Li2O7,Lithium Borate,"cr,l",https://janaf.nist.gov/tables/B-120.txt,,183.05,,155.645,,-3362262.0,,-3170290.9999999995
+81,B4Mg,Magnesium Boride,cr,https://janaf.nist.gov/tables/B-121.txt,0.0,70.333,0.0,51.923,-104683.0,-105017.99999999999,-104683.0,-103801.0
+82,B4Na2O7,Sodium Borate,cr,https://janaf.nist.gov/tables/B-122.txt,0.0,186.774,0.0,189.49,-3258982.9999999995,-3276741.0,-3258982.9999999995,-3081522.0
+83,B4Na2O7,Sodium Borate,"cr,l",https://janaf.nist.gov/tables/B-124.txt,0.0,186.774,0.0,189.49,-3258982.9999999995,-3276741.0,-3258982.9999999995,-3081522.0
+84,B4O7Pb,Lead Borate,cr,https://janaf.nist.gov/tables/B-125.txt,,168.197,,166.942,,-2857672.0,,-2667095.9999999995
+85,B6K2O10,Potassium Borate,cr,https://janaf.nist.gov/tables/B-128.txt,,261.918,,251.04,,-4633529.0,,-4353554.0
+86,B6Li2O10,Lithium Borate,cr,https://janaf.nist.gov/tables/B-129.txt,,293.215,,188.28,,-4659888.0,,-4382420.999999999
+87,B6Na2O10,Sodium Borate,cr,https://janaf.nist.gov/tables/B-130.txt,,243.50900000000001,,232.21200000000002,,-4580476.0,,-4302768.0
+88,B6O10Pb,Lead Borate,cr,https://janaf.nist.gov/tables/B-131.txt,,230.957,,203.342,,-4196552.0,,-3921603.0
+89,B8K2O13,Potassium Borate,cr,https://janaf.nist.gov/tables/B-132.txt,,321.289,,293.717,,-5945129.0,,-5582653.0
+90,B8K2O13,Potassium Borate,"cr,l",https://janaf.nist.gov/tables/B-134.txt,,321.289,,293.717,,-5945129.0,,-5582653.0
+91,B8Li2O13,Lithium Borate,cr,https://janaf.nist.gov/tables/B-135.txt,,325.515,,265.26599999999996,,-5914376.999999999,,-5564637.0
+92,H14B10,Decaborane,cr,https://janaf.nist.gov/tables/B-136.txt,0.0,217.953,0.0,176.565,14248.0,-28870.0,14248.0,208617.00000000003
+93,H14B10,Decaborane,"cr,l",https://janaf.nist.gov/tables/B-138.txt,0.0,217.953,0.0,176.565,14248.0,-28870.0,14248.0,208617.00000000003
+94,B10O17Pb2,Lead Borate,cr,https://janaf.nist.gov/tables/B-140.txt,,406.685,,352.711,,-7087696.0,,-6616932.0
+95,Ba,Barium,ref,https://janaf.nist.gov/tables/Ba-001.txt,0.0,28.096,0.0,62.475,0.0,0.0,0.0,0.0
+96,Ba,Barium,cr,https://janaf.nist.gov/tables/Ba-002.txt,0.0,28.096,0.0,62.475,0.0,0.0,0.0,0.0
+97,Ba,Barium,"cr,l",https://janaf.nist.gov/tables/Ba-004.txt,0.0,28.096,0.0,62.475,0.0,0.0,0.0,0.0
+98,BaBr2,Barium Bromide,cr,https://janaf.nist.gov/tables/Ba-008.txt,,77.015,,148.532,,-757722.0,,-738000.0
+99,BaBr2,Barium Bromide,"cr,l",https://janaf.nist.gov/tables/Ba-010.txt,,77.015,,148.532,,-757722.0,,-738000.0
+100,BaCl2,Barium Chloride,cr,https://janaf.nist.gov/tables/Ba-013.txt,0.0,75.14,0.0,123.666,-859171.0,-858557.0,-859171.0,-810290.0
+101,BaCl2,Barium Chloride,"cr,l",https://janaf.nist.gov/tables/Ba-015.txt,0.0,75.14,0.0,123.666,-859171.0,-858557.0,-859171.0,-810290.0
+102,BaF2,Barium Fluoride,cr,https://janaf.nist.gov/tables/Ba-019.txt,0.0,72.204,0.0,96.397,-1207475.0,-1208758.0,-1207475.0,-1158410.0
+103,BaF2,Barium Fluoride,"cr,l",https://janaf.nist.gov/tables/Ba-021.txt,0.0,72.204,0.0,96.397,-1207475.0,-1208758.0,-1207475.0,-1158410.0
+104,H2BaO2,"Barium Hydroxide, Alpha",cr,https://janaf.nist.gov/tables/Ba-025.txt,,101.62899999999999,,107.11,,-946295.0,,-859476.0000000001
+105,H2BaO2,Barium Hydroxide,"cr,l",https://janaf.nist.gov/tables/Ba-027.txt,,101.62899999999999,,107.11,,-946295.0,,-859476.0000000001
+106,BaI2,Barium Iodide,cr,https://janaf.nist.gov/tables/Ba-030.txt,0.0,77.488,0.0,165.142,-604544.0,-605425.0,-604544.0,-601406.9999999999
+107,BaI2,Barium Iodide,"cr,l",https://janaf.nist.gov/tables/Ba-032.txt,0.0,77.488,0.0,165.142,-604544.0,-605425.0,-604544.0,-601406.9999999999
+108,BaO,Barium Oxide,cr,https://janaf.nist.gov/tables/Ba-034.txt,0.0,47.278999999999996,0.0,72.069,-546833.0000000001,-548104.0,-546833.0000000001,-520381.99999999994
+109,BaO,Barium Oxide,"cr,l",https://janaf.nist.gov/tables/Ba-036.txt,0.0,47.278999999999996,0.0,72.069,-546833.0000000001,-548104.0,-546833.0000000001,-520381.99999999994
+110,BaS,Barium Sulfide,cr,https://janaf.nist.gov/tables/Ba-038.txt,0.0,49.373999999999995,0.0,78.395,-462722.0,-463587.0,-462722.0,-458776.0
+111,Be,Beryllium,ref,https://janaf.nist.gov/tables/Be-001.txt,0.0,16.38,0.0,9.44,0.0,0.0,0.0,0.0
+112,Be,Beryllium,cr,https://janaf.nist.gov/tables/Be-002.txt,0.0,16.38,0.0,9.44,0.0,0.0,0.0,0.0
+113,Be,Beryllium,"cr,l",https://janaf.nist.gov/tables/Be-004.txt,0.0,16.38,0.0,9.44,0.0,0.0,0.0,0.0
+114,BeBr2,Beryllium Bromide,cr,https://janaf.nist.gov/tables/Be-008.txt,,66.024,,100.416,,-355640.0,,-337384.0
+115,BeCl2,"Beryllium Chloride, Alpha",cr,https://janaf.nist.gov/tables/Be-013.txt,0.0,64.852,0.0,82.676,-491795.0,-490930.0,-491795.0,-446254.0
+116,BeCl2,"Beryllium Chloride, Beta",cr,https://janaf.nist.gov/tables/Be-014.txt,0.0,62.425,0.0,75.814,-496527.0,-496222.0,-496527.0,-449501.0
+117,BeCl2,Beryllium Chloride,"cr,l",https://janaf.nist.gov/tables/Be-016.txt,0.0,64.852,0.0,82.676,-491795.0,-490930.0,-491795.0,-446254.0
+118,BeF2,Beryllium Fluoride,cr,https://janaf.nist.gov/tables/Be-019.txt,0.0,51.818999999999996,0.0,53.354,-1024464.9999999999,-1026753.9999999999,-1024464.9999999999,-979385.0
+119,BeF2,Beryllium Fluoride,"cr,l",https://janaf.nist.gov/tables/Be-021.txt,0.0,51.818999999999996,0.0,53.354,-1024464.9999999999,-1026753.9999999999,-1024464.9999999999,-979385.0
+120,BeF3Li,Lithium Trifluoroberyllate,cr,https://janaf.nist.gov/tables/Be-023.txt,,91.816,,89.245,,-1651842.9999999998,,-1576273.0
+121,BeF3Li,Lithium Trifluoroberyllate,"cr,l",https://janaf.nist.gov/tables/Be-025.txt,,91.816,,89.245,,-1651842.9999999998,,-1576273.0
+122,BeF4Li2,Lithium Tetrafluoroberyllate,cr,https://janaf.nist.gov/tables/Be-027.txt,,135.269,,130.583,,-2273586.0000000005,,-2171438.0
+123,BeF4Li2,Lithium Tetrafluoroberyllate,"cr,l",https://janaf.nist.gov/tables/Be-029.txt,,135.269,,130.583,,-2273586.0000000005,,-2171438.0
+124,H2BeO2,"Beryllium Hydroxide, Alpha",cr,https://janaf.nist.gov/tables/Be-035.txt,,65.70100000000001,,53.555,,-902906.9999999999,,-815933.0
+125,H2BeO2,"Beryllium Hydroxide, Beta",cr,https://janaf.nist.gov/tables/Be-036.txt,,65.70100000000001,,50.208,,-905836.0,,-817863.9999999999
+126,BeI2,Beryllium Iodide,cr,https://janaf.nist.gov/tables/Be-039.txt,,68.961,,120.499,,-188697.99999999997,,-187183.0
+127,BeI2,Beryllium Iodide,"cr,l",https://janaf.nist.gov/tables/Be-041.txt,,68.961,,120.499,,-188697.99999999997,,-187183.0
+128,BeO,"Beryllium Oxide, Alpha",cr,https://janaf.nist.gov/tables/Be-044.txt,0.0,25.56,0.0,13.77,-604914.0,-608354.0,-604914.0,-579062.0
+129,BeO,"Beryllium Oxide, Beta",cr,https://janaf.nist.gov/tables/Be-045.txt,,25.56,,16.590999999999998,,-601659.0,,-573209.0000000001
+130,BeO,Beryllium Oxide,"cr,l",https://janaf.nist.gov/tables/Be-047.txt,0.0,25.56,0.0,13.77,-604914.0,-608354.0,-604914.0,-579062.0
+131,BeO4S,"Beryllium Sulfate, Alpha",cr,https://janaf.nist.gov/tables/Be-049.txt,0.0,85.697,0.0,77.971,-1190076.0,-1200808.0,-1190076.0,-1089354.0
+132,BeO4S,"Beryllium Sulfate, Beta",cr,https://janaf.nist.gov/tables/Be-050.txt,,85.697,,79.258,,-1199695.0,,-1088624.0
+133,BeO4S,"Beryllium Sulfate, Gamma",cr,https://janaf.nist.gov/tables/Be-051.txt,,85.697,,100.78399999999999,,-1180143.0,,-1075491.0
+134,BeO4W,Beryllium Tungsten Oxide,cr,https://janaf.nist.gov/tables/Be-052.txt,,97.27799999999999,,88.366,,-1513352.9999999998,,-1404818.0
+135,BeS,Beryllium Sulfide,cr,https://janaf.nist.gov/tables/Be-053.txt,,34.016,,37.028,,-234304.0,,-232972.0
+136,S,Sulfur,ref,https://janaf.nist.gov/tables/S-001.txt,0.0,22.698,0.0,32.056,0.0,0.0,0.0,0.0
+137,Be2O4Si,Beryllium Silicate,cr,https://janaf.nist.gov/tables/Be-060.txt,0.0,95.56299999999999,0.0,64.19,-2105002.9999999995,-2117225.0,-2105002.9999999995,-2002793.9999999998
+138,Be3N2,"Beryllium Nitride, Alpha",cr,https://janaf.nist.gov/tables/Be-061.txt,0.0,64.358,0.0,34.129,-580879.0,-588270.0,-580879.0,-532874.0
+139,Be3N2,Beryllium Nitride,"cr,l",https://janaf.nist.gov/tables/Be-063.txt,0.0,64.358,0.0,34.129,-580879.0,-588270.0,-580879.0,-532874.0
+140,H4BrN,Ammonium Bromide,cr,https://janaf.nist.gov/tables/Br-012.txt,0.0,88.676,0.0,112.84200000000001,-254970.99999999997,-271542.00000000006,-254970.99999999997,-176007.0
+141,BrK,Potassium Bromide,cr,https://janaf.nist.gov/tables/Br-015.txt,0.0,52.379,0.0,95.939,-386674.00000000006,-393798.0,-386674.00000000006,-380431.0
+142,BrK,Potassium Bromide,"cr,l",https://janaf.nist.gov/tables/Br-017.txt,0.0,52.379,0.0,95.939,-386674.00000000006,-393798.0,-386674.00000000006,-380431.0
+143,BrLi,Lithium Bromide,cr,https://janaf.nist.gov/tables/Br-019.txt,,48.919,,74.057,,-350912.0,,-341630.0
+144,BrLi,Lithium Bromide,"cr,l",https://janaf.nist.gov/tables/Br-021.txt,,48.919,,74.057,,-350912.0,,-341630.0
+145,BrNa,Sodium Bromide,cr,https://janaf.nist.gov/tables/Br-027.txt,0.0,51.4,0.0,86.818,-354301.99999999994,-361414.0,-354301.99999999994,-349267.0
+146,BrNa,Sodium Bromide,"cr,l",https://janaf.nist.gov/tables/Br-029.txt,0.0,51.4,0.0,86.818,-354301.99999999994,-361414.0,-354301.99999999994,-349267.0
+147,Br2,Bromine,ref,https://janaf.nist.gov/tables/Br-038.txt,0.0,75.67399999999999,0.0,152.20600000000002,0.0,0.0,0.0,0.0
+148,Br2,Bromine,"cr,l",https://janaf.nist.gov/tables/Br-039.txt,0.0,75.67399999999999,0.0,152.20600000000002,0.0,0.0,0.0,0.0
+149,Br2Ca,Calcium Bromide,cr,https://janaf.nist.gov/tables/Br-041.txt,,75.04,,129.704,,-683247.0,,-664138.9999999999
+150,Br2Ca,Calcium Bromide,"cr,l",https://janaf.nist.gov/tables/Br-043.txt,,75.04,,129.704,,-683247.0,,-664138.9999999999
+151,Br2Fe,Iron Bromide,cr,https://janaf.nist.gov/tables/Br-045.txt,,80.232,,140.666,,-248947.99999999997,,-237362.0
+152,Br2Fe,Iron Bromide,"cr,l",https://janaf.nist.gov/tables/Br-047.txt,,80.232,,140.666,,-248947.99999999997,,-237362.0
+153,Br2Hg,Mercury Bromide,cr,https://janaf.nist.gov/tables/Br-050.txt,,75.312,,170.31400000000002,,-169452.0,,-152183.0
+154,Br2Hg,Mercury Bromide,"cr,l",https://janaf.nist.gov/tables/Br-052.txt,,75.312,,170.31400000000002,,-169452.0,,-152183.0
+155,Br2Hg2,Mercury Bromide,cr,https://janaf.nist.gov/tables/Br-054.txt,,104.6,,218.752,,-204179.0,,-178684.00000000003
+156,Br2Mg,Magnesium Bromide,cr,https://janaf.nist.gov/tables/Br-057.txt,,73.161,,117.152,,-524255.0,,-504063.00000000006
+157,Br2Mg,Magnesium Bromide,"cr,l",https://janaf.nist.gov/tables/Br-059.txt,,73.161,,117.152,,-524255.0,,-504063.00000000006
+158,Br2Mo,Molybdenum Bromide,cr,https://janaf.nist.gov/tables/Br-062.txt,,79.684,,124.68299999999999,,-202924.0,,-186189.00000000003
+159,Br2Pb,Lead Bromide,cr,https://janaf.nist.gov/tables/Br-065.txt,0.0,79.578,0.0,161.128,-265247.0,-277399.0,-265247.0,-260743.0
+160,Br2Pb,Lead Bromide,"cr,l",https://janaf.nist.gov/tables/Br-067.txt,0.0,79.578,0.0,161.128,-265247.0,-277399.0,-265247.0,-260743.0
+161,Br2Sr,Strontium Bromide,cr,https://janaf.nist.gov/tables/Br-070.txt,0.0,76.85300000000001,0.0,143.438,-704960.0,-717973.9999999999,-704960.0,-698755.0
+162,Br2Sr,Strontium Bromide,"cr,l",https://janaf.nist.gov/tables/Br-072.txt,0.0,76.85300000000001,0.0,143.438,-704960.0,-717973.9999999999,-704960.0,-698755.0
+163,Br2Ti,Titanium Bromide,cr,https://janaf.nist.gov/tables/Br-074.txt,,78.688,,108.366,,-405430.0,,-383188.00000000006
+164,Br2Zr,Zirconium Bromide,cr,https://janaf.nist.gov/tables/Br-076.txt,,86.72200000000001,,115.897,,-404593.0,,-382178.00000000006
+165,Br2Zr,Zirconium Bromide,"cr,l",https://janaf.nist.gov/tables/Br-078.txt,,86.72200000000001,,115.897,,-404593.0,,-382178.00000000006
+166,Br3Mo,Molybdenum Bromide,cr,https://janaf.nist.gov/tables/Br-081.txt,,105.37,,174.47299999999998,,-283675.0,,-259095.00000000003
+167,Br3Ti,Titanium Bromide,cr,https://janaf.nist.gov/tables/Br-087.txt,0.0,101.705,0.0,176.44299999999998,-531572.0,-550196.0,-531572.0,-525561.0
+168,Br3Zr,Zirconium Bromide,cr,https://janaf.nist.gov/tables/Br-089.txt,0.0,99.48299999999999,0.0,172.054,-616078.0,-635968.0000000001,-616078.0,-607607.0
+169,Br4Mo,Molybdenum Bromide,cr,https://janaf.nist.gov/tables/Br-093.txt,,133.05100000000002,,209.2,,-304177.0,,-267260.99999999994
+170,Br4Ti,Titanium Bromide,cr,https://janaf.nist.gov/tables/Br-098.txt,0.0,131.503,0.0,243.622,-592684.0,-617977.0,-592684.0,-590681.0
+171,Br4Ti,Titanium Bromide,"cr,l",https://janaf.nist.gov/tables/Br-100.txt,0.0,131.503,0.0,243.622,-592684.0,-617977.0,-592684.0,-590681.0
+172,Br4Zr,Zirconium Bromide,cr,https://janaf.nist.gov/tables/Br-102.txt,0.0,124.805,0.0,224.68900000000002,-734298.0,-760651.0000000001,-734298.0,-725293.0
+173,Br5Nb,Niobium Bromide,cr,https://janaf.nist.gov/tables/Br-104.txt,,147.904,,258.78,,-556054.0,,-508886.99999999994
+174,Br5Nb,Niobium Bromide,"cr,l",https://janaf.nist.gov/tables/Br-106.txt,,147.904,,258.78,,-556054.0,,-508886.99999999994
+175,Br5W,Tungsten Bromide,cr,https://janaf.nist.gov/tables/Br-108.txt,,155.461,,271.96,,-311707.99999999994,,-269605.0
+176,Br5W,Tungsten Bromide,"cr,l",https://janaf.nist.gov/tables/Br-110.txt,,155.461,,271.96,,-311707.99999999994,,-269605.0
+177,Br6W,Tungsten Bromide,cr,https://janaf.nist.gov/tables/Br-112.txt,,181.385,,313.8,,-343088.0,,-290769.0
+178,C0.98Nb,Niobium Carbide,cr,https://janaf.nist.gov/tables/C-001.txt,0.0,36.233000000000004,0.0,34.966,-138061.0,-138909.0,-138061.0,-136785.0
+179,C,Carbon,ref,https://janaf.nist.gov/tables/C-002.txt,0.0,8.517000000000001,0.0,5.74,0.0,0.0,0.0,0.0
+180,CB4,Boron Carbide,cr,https://janaf.nist.gov/tables/C-008.txt,0.0,53.763999999999996,0.0,27.175,-62404.0,-62676.0,-62404.0,-62108.99999999999
+181,CB4,Boron Carbide,"cr,l",https://janaf.nist.gov/tables/C-010.txt,0.0,53.763999999999996,0.0,27.175,-62404.0,-62676.0,-62404.0,-62108.99999999999
+182,CBe2,Beryllium Carbide,cr,https://janaf.nist.gov/tables/C-011.txt,,43.25,,16.317999999999998,,-90792.99999999999,,-88317.0
+183,CBe2,Beryllium Carbide,"cr,l",https://janaf.nist.gov/tables/C-013.txt,,43.25,,16.317999999999998,,-90792.99999999999,,-88317.0
+184,CCuN,Copper Cyanide,cr,https://janaf.nist.gov/tables/C-029.txt,0.0,61.023999999999994,0.0,90.00200000000001,93317.0,94977.0,93317.0,108306.0
+185,CKN,Potassium Cyanide,cr,https://janaf.nist.gov/tables/C-069.txt,0.0,66.391,0.0,127.78,-118345.0,-113470.0,-118345.0,-102011.00000000001
+186,CKN,Potassium Cyanide,"cr,l",https://janaf.nist.gov/tables/C-071.txt,0.0,66.391,0.0,127.78,-118345.0,-113470.0,-118345.0,-102011.00000000001
+187,CK2O3,Potassium Carbonate,cr,https://janaf.nist.gov/tables/C-073.txt,0.0,114.43700000000001,0.0,155.519,-1144614.0,-1150182.0,-1144614.0,-1064528.0
+188,CK2O3,Potassium Carbonate,"cr,l",https://janaf.nist.gov/tables/C-075.txt,0.0,114.43700000000001,0.0,155.519,-1144614.0,-1150182.0,-1144614.0,-1064528.0
+189,CLi2O3,Lithium Carbonate,cr,https://janaf.nist.gov/tables/C-076.txt,0.0,96.23200000000001,0.0,90.171,-1207891.0,-1216038.0,-1207891.0,-1132120.0
+190,CLi2O3,Lithium Carbonate,"cr,l",https://janaf.nist.gov/tables/C-078.txt,0.0,96.23200000000001,0.0,90.171,-1207891.0,-1216038.0,-1207891.0,-1132120.0
+191,CMgO3,Magnesium Carbonate,cr,https://janaf.nist.gov/tables/C-079.txt,0.0,76.21,0.0,65.854,-1104303.9999999998,-1111688.9999999998,-1104303.9999999998,-1028124.0
+192,CNNa,Sodium Cyanide,cr,https://janaf.nist.gov/tables/C-083.txt,0.0,68.681,0.0,118.46700000000001,-98298.99999999999,90709.0,-98298.99999999999,80413.0
+193,CNNa,Sodium Cyanide,"cr,l",https://janaf.nist.gov/tables/C-085.txt,0.0,68.681,0.0,118.46700000000001,-98298.99999999999,90709.0,-98298.99999999999,80413.0
+194,CNa2O3,Sodium Carbonate,cr,https://janaf.nist.gov/tables/C-090.txt,0.0,111.00299999999999,0.0,138.797,-1124610.0,-1130768.0,-1124610.0,-1048009.0
+195,CNaO3,Sodium Carbonate,"cr,l",https://janaf.nist.gov/tables/C-092.txt,0.0,111.00299999999999,0.0,138.797,-1124610.0,-1130768.0,-1124610.0,-1048009.0
+196,CSi,"Silicon Carbide, Alpha",cr,https://janaf.nist.gov/tables/C-100.txt,0.0,26.761,0.0,16.485,-70530.0,-71546.0,-70530.0,-69139.0
+197,CSi,"Silicon Carbide, Beta",cr,https://janaf.nist.gov/tables/C-101.txt,0.0,26.84,0.0,16.61,-72221.0,-73220.0,-72221.0,-70850.0
+198,CTa,Tantalum Carbide,cr,https://janaf.nist.gov/tables/C-104.txt,0.0,36.79,0.0,42.373000000000005,-143879.0,-144097.0,-143879.0,-142654.0
+199,CTa,Tantalum Carbide,"cr,l",https://janaf.nist.gov/tables/C-106.txt,0.0,36.79,0.0,42.373000000000005,-143879.0,-144097.0,-143879.0,-142654.0
+200,CTi,Titanium Carbide,cr,https://janaf.nist.gov/tables/C-107.txt,0.0,33.806999999999995,0.0,24.229,-182822.0,-184095.99999999997,-182822.0,-180438.0
+201,CTi,Titanium Carbide,"cr,l",https://janaf.nist.gov/tables/C-109.txt,0.0,33.806999999999995,0.0,24.229,-182822.0,-184095.99999999997,-182822.0,-180438.0
+202,CZr,Zirconium Carbide,cr,https://janaf.nist.gov/tables/C-110.txt,0.0,37.899,0.0,33.321,-195960.99999999997,-196648.0,-195960.99999999997,-193282.0
+203,CZr,Zirconium Carbide,"cr,l",https://janaf.nist.gov/tables/C-112.txt,0.0,37.899,0.0,33.321,-195960.99999999997,-196648.0,-195960.99999999997,-193282.0
+204,C2Cr3,Chromium Carbide,cr,https://janaf.nist.gov/tables/C-119.txt,0.0,99.29899999999999,0.0,85.434,-86211.0,-85354.0,-86211.0,-86277.0
+205,C2Li2,Lithium Carbide,cr,https://janaf.nist.gov/tables/C-131.txt,,71.546,,58.576,,-59413.00000000001,,-56111.00000000001
+206,C2Mg,Magnesium Carbide,cr,https://janaf.nist.gov/tables/C-132.txt,,56.233000000000004,,54.391999999999996,,87863.99999999999,,84811.0
+207,C3Al4,Aluminum Carbide,cr,https://janaf.nist.gov/tables/C-139.txt,0.0,116.78399999999999,0.0,88.969,-210843.0,-215685.0,-210843.0,-203356.0
+208,C3Cr7,Chromium Carbide,cr,https://janaf.nist.gov/tables/C-140.txt,0.0,209.748,0.0,200.983,-163507.99999999997,-160666.0,-163507.99999999997,-166160.99999999997
+209,C3Mg2,Magnesium Carbide,cr,https://janaf.nist.gov/tables/C-141.txt,,93.76299999999999,,100.416,,79496.00000000001,,74173.0
+210,C6Cr23,Chromium Carbide,cr,https://janaf.nist.gov/tables/C-151.txt,0.0,628.1519999999999,0.0,612.044,-333575.0,-328444.0,-333575.0,-338693.00000000006
+211,Ca,Calcium,ref,https://janaf.nist.gov/tables/Ca-001.txt,0.0,25.929000000000002,0.0,41.588,0.0,0.0,0.0,0.0
+212,Ca,"Calcium, Alpha",cr,https://janaf.nist.gov/tables/Ca-002.txt,0.0,25.929000000000002,0.0,41.588,0.0,0.0,0.0,0.0
+213,Ca,"Calcium, Beta",cr,https://janaf.nist.gov/tables/Ca-003.txt,,25.951,,43.07,,1056.0,,614.0
+214,Ca,Calcium,"cr,l",https://janaf.nist.gov/tables/Ca-005.txt,0.0,25.929000000000002,0.0,41.588,0.0,0.0,0.0,0.0
+215,CaCl2,Calcium Chloride,cr,https://janaf.nist.gov/tables/Ca-009.txt,0.0,72.85600000000001,0.0,104.602,-796270.0,-795797.0,-796270.0,-748073.0
+216,CaCl2,Calcium Chloride,"cr,l",https://janaf.nist.gov/tables/Ca-011.txt,0.0,72.85600000000001,0.0,104.602,-796270.0,-795797.0,-796270.0,-748073.0
+217,CaF2,Calcium Fluoride,cr,https://janaf.nist.gov/tables/Ca-014.txt,0.0,68.58800000000001,0.0,68.572,-1223006.0,-1225912.0,-1223006.0,-1173496.0
+218,CaF2,Calcium Fluoride,"cr,l",https://janaf.nist.gov/tables/Ca-016.txt,0.0,68.58800000000001,0.0,68.572,-1223006.0,-1225912.0,-1223006.0,-1173496.0
+219,H2CaO2,Calcium Hydroxide,cr,https://janaf.nist.gov/tables/Ca-020.txt,0.0,87.48700000000001,0.0,83.387,-977358.0000000001,-986085.0,-977358.0000000001,-898421.0
+220,CaI2,Calcium Iodide,cr,https://janaf.nist.gov/tables/Ca-023.txt,0.0,77.157,0.0,145.287,-535838.0000000001,-536807.0,-535838.0000000001,-533097.0
+221,CaI2,Calcium Iodide,"cr,l",https://janaf.nist.gov/tables/Ca-025.txt,0.0,77.157,0.0,145.287,-535838.0000000001,-536807.0,-535838.0000000001,-533097.0
+222,CaO,Calcium Oxide,cr,https://janaf.nist.gov/tables/Ca-027.txt,0.0,42.12,0.0,38.211999999999996,-631760.0,-635089.0,-631760.0,-603501.0
+223,CaO,Calcium Oxide,"cr,l",https://janaf.nist.gov/tables/Ca-029.txt,0.0,42.12,0.0,38.211999999999996,-631760.0,-635089.0,-631760.0,-603501.0
+224,CaS,Calcium Sulfide,cr,https://janaf.nist.gov/tables/Ca-031.txt,0.0,47.442,0.0,56.601000000000006,-472061.0,-473210.0,-472061.0,-468129.0
+225,ClCs,Cesium Chloride,cr,https://janaf.nist.gov/tables/Cl-005.txt,9.146,52.442,3.54,101.182,-442979.00000000006,-442835.0,-442979.00000000006,-414360.0
+226,ClCs,Cesium Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-007.txt,9.146,52.442,3.54,101.182,-442979.00000000006,-442835.0,-442979.00000000006,-414360.0
+227,ClCu,Copper Chloride,cr,https://janaf.nist.gov/tables/Cl-009.txt,,48.534,,87.027,,-138072.0,,-120876.0
+228,ClCu,Copper Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-011.txt,,48.534,,87.027,,-138072.0,,-120876.0
+229,H4ClN,Ammonium Chloride,cr,https://janaf.nist.gov/tables/Cl-029.txt,0.0,86.441,0.0,94.86,-311390.99999999994,-314553.0,-311390.99999999994,-203092.0
+230,H4ClNO4,Ammonium Perchlorate,cr,https://janaf.nist.gov/tables/Cl-030.txt,0.0,128.072,0.0,184.18,-277778.0,-295767.0,-277778.0,-88607.00000000001
+231,ClI,Iodine Chloride,cr,https://janaf.nist.gov/tables/Cl-032.txt,0.0,55.229,0.0,97.927,-36395.0,-35422.0,-36395.0,-14049.000000000002
+232,ClI,Iodine Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-034.txt,0.0,55.229,0.0,97.927,-36395.0,-35422.0,-36395.0,-14049.000000000002
+233,ClK,Potassium Chloride,cr,https://janaf.nist.gov/tables/Cl-036.txt,0.0,51.287,0.0,82.554,-436379.0,-436684.0,-436379.0,-408760.99999999994
+234,ClK,Potassium Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-038.txt,0.0,51.287,0.0,82.554,-436379.0,-436684.0,-436379.0,-408760.99999999994
+235,ClKO4,Potassium Perchlorate,cr,https://janaf.nist.gov/tables/Cl-040.txt,0.0,110.20700000000001,0.0,151.042,-422147.0,-430115.0,-422147.0,-300282.0
+236,ClLi,Lithium Chloride,cr,https://janaf.nist.gov/tables/Cl-041.txt,0.0,48.028,0.0,59.3,-408359.00000000006,-408265.99999999994,-408359.00000000006,-384019.0
+237,ClLi,Lithium Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-043.txt,0.0,48.028,0.0,59.3,-408359.00000000006,-408265.99999999994,-408359.00000000006,-384019.0
+238,ClLiO4,Lithium Perchlorate,cr,https://janaf.nist.gov/tables/Cl-046.txt,,105.01799999999999,,125.52,,-380744.0,,-253910.99999999997
+239,ClLiO4,Lithium Perchlorate,"cr,l",https://janaf.nist.gov/tables/Cl-048.txt,,105.01799999999999,,125.52,,-380744.0,,-253910.99999999997
+240,ClNa,Sodium Chloride,cr,https://janaf.nist.gov/tables/Cl-053.txt,0.0,50.50899999999999,0.0,72.115,-410693.00000000006,-411120.0,-410693.00000000006,-384024.0
+241,ClNa,Sodium Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-055.txt,0.0,50.50899999999999,0.0,72.115,-410693.00000000006,-411120.0,-410693.00000000006,-384024.0
+242,ClNaO4,Sodium Perchlorate,cr,https://janaf.nist.gov/tables/Cl-057.txt,,111.294,,142.256,,-382751.99999999994,,-254240.0
+243,Cl2,Chlorine,ref,https://janaf.nist.gov/tables/Cl-073.txt,0.0,33.949,0.0,223.079,0.0,0.0,0.0,0.0
+244,Cl2Co,Cobalt Chloride,cr,https://janaf.nist.gov/tables/Cl-074.txt,0.0,78.492,0.0,109.266,-314394.0,-312545.0,-314394.0,-269647.0
+245,Cl2Co,Cobalt Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-076.txt,0.0,78.492,0.0,109.266,-314394.0,-312545.0,-314394.0,-269647.0
+246,Cl2Cu,Copper Chloride,cr,https://janaf.nist.gov/tables/Cl-079.txt,0.0,71.881,0.0,108.085,-206648.0,-205852.99999999997,-206648.0,-161680.0
+247,Cl2Fe,Iron Chloride,cr,https://janaf.nist.gov/tables/Cl-081.txt,0.0,76.664,0.0,117.947,-344419.00000000006,-341833.0,-344419.00000000006,-302342.0
+248,Cl2Fe,Iron Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-083.txt,0.0,76.664,0.0,117.947,-344419.00000000006,-341833.0,-344419.00000000006,-302342.0
+249,Cl2Hg,Mercury Chloride,cr,https://janaf.nist.gov/tables/Cl-086.txt,,73.906,,144.494,,-230120.0,,-184022.00000000003
+250,Cl2Hg,Mercury Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-088.txt,,73.906,,144.494,,-230120.0,,-184022.00000000003
+251,Cl2Hg2,Mercury Chloride,cr,https://janaf.nist.gov/tables/Cl-090.txt,0.0,101.96799999999999,0.0,192.535,-260537.00000000003,-264927.0,-260537.00000000003,-210485.0
+252,Cl2Mg,Magnesium Chloride,cr,https://janaf.nist.gov/tables/Cl-093.txt,0.0,71.37899999999999,0.0,89.62899999999999,-641196.0,-641616.0,-641196.0,-592087.0
+253,Cl2Mg,Magnesium Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-095.txt,0.0,71.37899999999999,0.0,89.62899999999999,-641196.0,-641616.0,-641196.0,-592087.0
+254,Cl2Ni,Nickel Chloride,cr,https://janaf.nist.gov/tables/Cl-099.txt,0.0,71.66,0.0,98.15700000000001,-305389.0,-304930.0,-305389.0,-258779.0
+255,Cl2Ni,Nickel Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-101.txt,0.0,71.66,0.0,98.15700000000001,-305389.0,-304930.0,-305389.0,-258779.0
+256,Cl2O2W,Tungsten Chloride Oxide,cr,https://janaf.nist.gov/tables/Cl-106.txt,,104.40799999999999,,200.832,,-780316.0,,-702781.0000000001
+257,Cl2Pb,Lead Chloride,cr,https://janaf.nist.gov/tables/Cl-108.txt,,77.07300000000001,,135.98,,-359406.0,,-314121.0
+258,Cl2Pb,Lead Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-110.txt,,77.07300000000001,,135.98,,-359406.0,,-314121.0
+259,Cl2Sr,Strontium Chloride,cr,https://janaf.nist.gov/tables/Cl-119.txt,0.0,75.58800000000001,0.0,114.809,-829343.9999999999,-828850.0,-829343.9999999999,-779965.0
+260,Cl2Sr,Strontium Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-121.txt,0.0,75.58800000000001,0.0,114.809,-813101.0000000001,-828850.0,-813101.0000000001,-779965.0
+261,Cl2Ti,Titanium Chloride,cr,https://janaf.nist.gov/tables/Cl-123.txt,0.0,69.831,0.0,87.345,-514759.0,-515469.00000000006,-514759.0,-465829.0
+262,Cl2W,Tungsten Chloride,cr,https://janaf.nist.gov/tables/Cl-125.txt,,77.822,,130.541,,-257315.99999999997,,-219988.0
+263,Cl2Zr,Zirconium Chloride,cr,https://janaf.nist.gov/tables/Cl-127.txt,,72.592,,110.039,,-430952.0,,-385660.0
+264,Cl2Zr,Zirconium Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-129.txt,,72.592,,110.039,,-430952.0,,-385660.0
+265,Cl3Fe,Iron Chloride,cr,https://janaf.nist.gov/tables/Cl-134.txt,0.0,96.65,0.0,142.336,-400833.0,-399405.0,-400833.0,-333930.0
+266,Cl3Fe,Iron Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-136.txt,0.0,96.65,0.0,142.336,-400833.0,-399405.0,-400833.0,-333930.0
+267,Cl3Ti,Titanium Chloride,cr,https://janaf.nist.gov/tables/Cl-144.txt,0.0,97.161,0.0,139.75,-724059.0,-721740.0,-724059.0,-654469.0
+268,Cl3Zr,Zirconium Chloride,cr,https://janaf.nist.gov/tables/Cl-146.txt,,96.19,,145.812,,-714209.0,,-646327.0
+269,Cl4Mo,Molybdenum Chloride,cr,https://janaf.nist.gov/tables/Cl-151.txt,,129.704,,223.84400000000002,,-476976.0,,-402164.0
+270,Cl4Mo,Molybdenum Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-153.txt,0.0,129.704,,223.84400000000002,,-476976.0,,-402164.0
+271,Cl4OW,Tungsten Chloride Oxide,cr,https://janaf.nist.gov/tables/Cl-155.txt,,146.248,,172.799,,-671113.9999999999,,-549291.9999999999
+272,Cl4OW,Tungsten Chloride Oxide,"cr,l",https://janaf.nist.gov/tables/Cl-157.txt,,146.248,,172.799,,-671113.9999999999,,-549291.9999999999
+273,Cl4Ti,Titanium Chloride,cr,https://janaf.nist.gov/tables/Cl-161.txt,0.0,129.46,0.0,209.06900000000002,-818798.0,815026.0000000001,-818798.0,735166.9999999999
+274,Cl4Ti,Titanium Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-163.txt,0.0,145.205,0.0,221.925,-811213.0000000001,-804165.0,-811213.0000000001,-728138.9999999999
+275,Cl4W,Tungsten Chloride,cr,https://janaf.nist.gov/tables/Cl-165.txt,,129.704,,198.322,,-443086.0,,-359455.99999999994
+276,Cl4Zr,Zirconium Chloride,cr,https://janaf.nist.gov/tables/Cl-167.txt,0.0,119.788,0.0,181.418,-981585.0,-980520.0,-981585.0,-889998.9999999999
+277,Cl5Mo,Molybdenum Chloride,cr,https://janaf.nist.gov/tables/Cl-169.txt,,155.645,,238.488,,-527184.0,,-423483.0
+278,Cl5Mo,Molybdenum Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-171.txt,,155.645,,238.488,,-527184.0,,-423483.0
+279,Cl5Nb,Niobium Chloride,cr,https://janaf.nist.gov/tables/Cl-173.txt,,147.904,,214.053,,-797470.0,,-684141.0000000001
+280,Cl5Nb,Niobium Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-175.txt,,147.904,,214.053,,-797470.0,,-684141.0000000001
+281,Cl5Ta,Tantalum Chloride,cr,https://janaf.nist.gov/tables/Cl-178.txt,,147.904,,221.752,,-858975.0,,-746448.0
+282,Cl5Ta,Tantalum Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-180.txt,,147.904,,221.752,,-858975.0,,-746448.0
+283,Cl5W,Tungsten Chloride,cr,https://janaf.nist.gov/tables/Cl-182.txt,,155.645,,217.56799999999998,,-512958.00000000006,,-401811.0
+284,Cl5W,Tungsten Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-184.txt,,155.645,,217.56799999999998,,-512958.00000000006,,-401811.0
+285,Cl6Mo,Molybdenum Chloride,cr,https://janaf.nist.gov/tables/Cl-187.txt,,175.31,,255.22400000000002,,-523000.0,,-391033.0
+286,Cl6W,"Tungsten Chloride, Alpha",cr,https://janaf.nist.gov/tables/Cl-189.txt,,175.418,,238.488,,-593710.0,,-455544.00000000006
+287,Cl6W,"Tungsten Chloride, Beta",cr,https://janaf.nist.gov/tables/Cl-190.txt,,188.28,,280.60400000000004,,-572877.0,,-447269.0
+288,Cl6W,Tungsten Chloride,"cr,l",https://janaf.nist.gov/tables/Cl-192.txt,,175.418,,238.488,,-593710.0,,-455544.00000000006
+289,Co,Cobalt,ref,https://janaf.nist.gov/tables/Co-001.txt,0.0,24.802,0.0,30.066999999999997,0.0,0.0,0.0,0.0
+290,Co,Cobalt,cr,https://janaf.nist.gov/tables/Co-002.txt,0.0,24.802,0.0,30.066999999999997,0.0,0.0,0.0,0.0
+291,Co,Cobalt,"cr,l",https://janaf.nist.gov/tables/Co-004.txt,0.0,24.802,0.0,30.066999999999997,0.0,0.0,0.0,0.0
+292,CoF2,Cobalt Fluoride,cr,https://janaf.nist.gov/tables/Co-008.txt,0.0,68.90899999999999,0.0,82.02600000000001,-670395.0,-671531.9999999999,-670395.0,-626562.0
+293,CoF2,Cobalt Fluoride,"cr,l",https://janaf.nist.gov/tables/Co-010.txt,0.0,68.90899999999999,0.0,82.02600000000001,-670395.0,-671531.9999999999,-670395.0,-626562.0
+294,CoF3,Cobalt Fluoride,cr,https://janaf.nist.gov/tables/Co-012.txt,,91.79700000000001,,94.55799999999999,,-790358.0000000001,,-718893.0
+295,CoO,Cobalt Oxide,cr,https://janaf.nist.gov/tables/Co-013.txt,0.0,55.278999999999996,0.0,52.993,-238055.99999999997,-237735.0,-238055.99999999997,-213988.0
+296,CoO4S,Cobalt Sulfate,cr,https://janaf.nist.gov/tables/Co-014.txt,0.0,103.219,0.0,117.37700000000001,-878952.0,-888263.0,-878952.0,-782408.0
+297,Co3O4,Cobalt Oxide,cr,https://janaf.nist.gov/tables/Co-015.txt,0.0,123.051,0.0,114.286,-896309.0,-910020.0,-896309.0,-794871.0000000001
+298,Cr,Chromium,ref,https://janaf.nist.gov/tables/Cr-001.txt,0.0,23.434,0.0,23.618000000000002,0.0,0.0,0.0,0.0
+299,Cr,Chromium,cr,https://janaf.nist.gov/tables/Cr-002.txt,0.0,23.434,0.0,23.618000000000002,0.0,0.0,0.0,0.0
+300,Cr,Chromium,"cr,l",https://janaf.nist.gov/tables/Cr-004.txt,0.0,23.434,0.0,23.618000000000002,0.0,0.0,0.0,0.0
+301,CrN,Chromium Nitride,cr,https://janaf.nist.gov/tables/Cr-008.txt,0.0,52.677,0.0,37.711,-116465.0,-117152.0,-116465.0,-92790.0
+302,Cr2N,Chromium Nitride,cr,https://janaf.nist.gov/tables/Cr-013.txt,,66.065,,64.852,,-125520.0,,-102208.0
+303,Cr2O3,Chromium Oxide,cr,https://janaf.nist.gov/tables/Cr-014.txt,0.0,120.366,0.0,81.154,-1128844.0,-1134701.0,-1128844.0,-1053066.0
+304,Cr2O3,Chromium Oxide,"cr,l",https://janaf.nist.gov/tables/Cr-016.txt,0.0,120.366,0.0,81.154,-1128844.0,-1134701.0,-1128844.0,-1053066.0
+305,Cs,Cesium,ref,https://janaf.nist.gov/tables/Cs-001.txt,0.0,32.195,0.0,85.147,0.0,0.0,0.0,0.0
+306,Cs,Cesium,cr,https://janaf.nist.gov/tables/Cs-002.txt,0.0,32.195,0.0,85.147,0.0,0.0,0.0,0.0
+307,Cs,Cesium,"cr,l",https://janaf.nist.gov/tables/Cs-004.txt,0.0,32.195,0.0,85.147,0.0,0.0,0.0,0.0
+308,CsF,Cesium Fluoride,cr,https://janaf.nist.gov/tables/Cs-008.txt,,51.965,,88.28200000000001,,-554673.0,,-525377.0
+309,CsF,Cesium Fluoride,"cr,l",https://janaf.nist.gov/tables/Cs-010.txt,,51.965,,88.28200000000001,,-554673.0,,-525377.0
+310,HCsO,Cesium Hydroxide,cr,https://janaf.nist.gov/tables/Cs-012.txt,,67.872,,98.742,,-416726.0,,-370716.0
+311,HCsO,Cesium Hydroxide,"cr,l",https://janaf.nist.gov/tables/Cs-014.txt,,67.872,,98.742,,-416726.0,,-370716.0
+312,Cs2O4S,"Cesium Sulfate, I",cr,https://janaf.nist.gov/tables/Cs-022.txt,,108.7,,264.834,,-1410152.0,,-1306452.0
+313,Cs2O4S,"Cesium Sulfate, II",cr,https://janaf.nist.gov/tables/Cs-023.txt,0.0,135.143,0.0,211.878,-1433162.9999999998,-1442642.9999999998,-1433162.9999999998,-1323155.0
+314,Cs2O4S,Cesium Sulfate,"cr,l",https://janaf.nist.gov/tables/Cs-025.txt,0.0,135.143,0.0,211.878,-1433162.9999999998,-1442642.9999999998,-1433162.9999999998,-1323155.0
+315,Cu,Copper,ref,https://janaf.nist.gov/tables/Cu-001.txt,0.0,24.441999999999997,0.0,33.164,0.0,0.0,0.0,0.0
+316,Cu,Copper,cr,https://janaf.nist.gov/tables/Cu-002.txt,0.0,24.441999999999997,0.0,33.164,0.0,0.0,0.0,0.0
+317,Cu,Copper,"cr,l",https://janaf.nist.gov/tables/Cu-004.txt,0.0,24.441999999999997,0.0,33.164,0.0,0.0,0.0,0.0
+318,CuF,Copper Fluoride,cr,https://janaf.nist.gov/tables/Cu-008.txt,,51.882,,64.852,,-280328.0,,-259545.00000000003
+319,CuF2,Copper Fluoride,cr,https://janaf.nist.gov/tables/Cu-010.txt,0.0,65.55199999999999,0.0,77.452,-537170.0,-538899.0,-537170.0,-491642.0
+320,CuF2,Copper Fluoride,"cr,l",https://janaf.nist.gov/tables/Cu-012.txt,0.0,65.55199999999999,0.0,77.452,-537170.0,-538899.0,-537170.0,-491642.0
+321,H2CuO2,Copper Hydroxide,cr,https://janaf.nist.gov/tables/Cu-014.txt,,95.186,,108.366,,-450366.0,,-372660.0
+322,CuO,Copper Oxide,cr,https://janaf.nist.gov/tables/Cu-015.txt,0.0,42.246,0.0,42.593999999999994,-153807.00000000003,-156063.0,-153807.00000000003,-128292.0
+323,CuO4S,Copper Sulfate,cr,https://janaf.nist.gov/tables/Cu-017.txt,0.0,98.868,0.0,109.25399999999999,-760059.0,-769982.0,-760059.0,-660781.0000000001
+324,Cu2O,Copper Oxide,cr,https://janaf.nist.gov/tables/Cu-019.txt,0.0,62.543,0.0,92.36,-168952.0,-170707.0,-168952.0,-147886.0
+325,Cu2O,Copper Oxide,"cr,l",https://janaf.nist.gov/tables/Cu-021.txt,0.0,62.543,0.0,92.36,-168952.0,-170707.0,-168952.0,-147886.0
+326,Cu2O5S,Copper Oxide Sulfate,cr,https://janaf.nist.gov/tables/Cu-022.txt,,141.043,,157.31799999999998,,-927593.0000000001,,-792253.0
+327,D2,Deuterium,ref,https://janaf.nist.gov/tables/D-012.txt,0.0,29.194000000000003,0.0,144.96,0.0,0.0,0.0,0.0
+328,e-,Electron Gas,ref,https://janaf.nist.gov/tables/D-020.txt,-6.197,20.785999999999998,,20.979,,0.0,,0.0
+329,FK,Potassium Fluoride,cr,https://janaf.nist.gov/tables/F-017.txt,0.0,48.982,0.0,66.547,-567111.0,-568606.0,-567111.0,-538934.0
+330,FK,Potassium Fluoride,"cr,l",https://janaf.nist.gov/tables/F-019.txt,0.0,48.982,0.0,66.547,-567111.0,-568606.0,-567111.0,-538934.0
+331,FLi,Lithium Fluoride,cr,https://janaf.nist.gov/tables/F-021.txt,0.0,41.815,0.0,35.66,-614369.0,-616931.0,-614369.0,-588660.0
+332,FLi,Lithium Fluoride,"cr,l",https://janaf.nist.gov/tables/F-023.txt,0.0,41.815,0.0,35.66,-614369.0,-616931.0,-614369.0,-588660.0
+333,FNa,Sodium Fluoride,cr,https://janaf.nist.gov/tables/F-033.txt,0.0,46.852,0.0,51.211999999999996,-573013.0,-575384.0,-573013.0,-545081.0
+334,FNa,Sodium Fluoride,"cr,l",https://janaf.nist.gov/tables/F-035.txt,0.0,46.852,0.0,51.211999999999996,-573013.0,-575384.0,-573013.0,-545081.0
+335,F2,Fluorine,ref,https://janaf.nist.gov/tables/F-054.txt,0.0,31.302,0.0,202.78900000000002,0.0,0.0,0.0,0.0
+336,F2Fe,Iron Fluoride,cr,https://janaf.nist.gov/tables/F-055.txt,0.0,68.116,0.0,86.985,-705266.0000000001,-705841.0,-705266.0000000001,-663168.0
+337,F2Fe,Iron Fluoride,"cr,l",https://janaf.nist.gov/tables/F-057.txt,0.0,68.116,0.0,86.985,-705266.0000000001,-705841.0,-705266.0000000001,-663168.0
+338,HF2K,Potassium Fluoride,cr,https://janaf.nist.gov/tables/F-059.txt,0.0,76.94,0.0,104.264,-926386.0000000001,-931233.0000000001,-926386.0000000001,-863095.0
+339,HF2K,Potassium Fluoride,"cr,l",https://janaf.nist.gov/tables/F-061.txt,0.0,76.94,0.0,104.264,-926386.0000000001,-931233.0000000001,-926386.0000000001,-863095.0
+340,F2Hg,Mercury Fluoride,cr,https://janaf.nist.gov/tables/F-063.txt,,74.85600000000001,,116.315,,-422584.0,,-374134.0
+341,F2Hg,Mercury Fluoride,"cr,l",https://janaf.nist.gov/tables/F-065.txt,,74.85600000000001,,116.315,,-422584.0,,-374134.0
+342,F2Hg2,Mercury Fluoride,cr,https://janaf.nist.gov/tables/F-067.txt,,100.416,,160.666,,-485344.0,,-468629.0
+343,F2Mg,Magnesium Fluoride,cr,https://janaf.nist.gov/tables/F-072.txt,0.0,61.547,0.0,57.255,-1120331.9999999998,-1124241.0,-1120331.9999999998,-1071109.0
+344,F2Mg,Magnesium Fluoride,"cr,l",https://janaf.nist.gov/tables/F-074.txt,0.0,61.547,0.0,57.255,-1120331.9999999998,-1124241.0,-1120331.9999999998,-1071109.0
+345,F2Pb,"Lead Fluoride, Alpha",cr,https://janaf.nist.gov/tables/F-091.txt,,72.258,,112.96799999999999,,-676971.0,,-630875.0
+346,F2Pb,"Lead Fluoride, Beta",cr,https://janaf.nist.gov/tables/F-092.txt,,74.266,,114.398,,-675990.0,,-630320.0
+347,F2Pb,Lead Fluoride,"cr,l",https://janaf.nist.gov/tables/F-094.txt,,72.258,,112.96799999999999,,-676971.0,,-630875.0
+348,F2Sr,Strontium Fluoride,cr,https://janaf.nist.gov/tables/F-102.txt,0.0,69.985,0.0,82.12299999999999,-1214807.0,-1217126.0,-1214807.0,-1164543.9999999998
+349,F2Sr,Strontium Fluoride,"cr,l",https://janaf.nist.gov/tables/F-104.txt,0.0,69.985,0.0,82.12299999999999,-1214807.0,-1217126.0,-1214807.0,-1164543.9999999998
+350,F2Zr,Zirconium Fluoride,cr,https://janaf.nist.gov/tables/F-107.txt,,65.94,,75.312,,-962320.0,,-912723.9999999999
+351,F2Zr,Zirconium Fluoride,"cr,l",https://janaf.nist.gov/tables/F-109.txt,,65.94,,75.312,,-962320.0,,-912723.9999999999
+352,F3Fe,Iron Fluoride,cr,https://janaf.nist.gov/tables/F-111.txt,,91.00200000000001,,98.324,,-1041816.0,,-972293.0
+353,F3Ti,Titanium Fluoride,cr,https://janaf.nist.gov/tables/F-125.txt,,92.023,,87.86399999999999,,-1435530.0,,-1361864.0
+354,F3Zr,Zirconium Fluoride,cr,https://janaf.nist.gov/tables/F-127.txt,,83.68,,87.86399999999999,,-1401640.0,,-1325555.0
+355,F4OW,Tungsten Fluoride Oxide,cr,https://janaf.nist.gov/tables/F-133.txt,,133.578,,175.72799999999998,,-1406908.0,,-1298058.0
+356,F4OW,Tungsten Fluoride Oxide,"cr,l",https://janaf.nist.gov/tables/F-135.txt,,133.578,,175.72799999999998,,-1406908.0,,-1298058.0
+357,F4Ti,Titanium Fluoride,cr,https://janaf.nist.gov/tables/F-142.txt,0.0,114.265,0.0,133.955,-1647108.0,-1649332.9999999998,-1647108.0,-1559177.0000000002
+358,F4Zr,Zirconium Fluoride,cr,https://janaf.nist.gov/tables/F-144.txt,0.0,103.596,0.0,104.7,-1905601.0,-1911251.0,-1905601.0,-1809955.0
+359,Fe0.947O,"Iron Oxide, Wustite",cr,https://janaf.nist.gov/tables/Fe-001.txt,0.0,48.11600000000001,0.0,57.588,-267123.0,-266270.0,-267123.0,-245143.0
+360,Fe0.877S,"Iron Sulfide, Pyrrhotite",cr,https://janaf.nist.gov/tables/Fe-002.txt,0.0,49.883,0.0,60.799,-106312.99999999999,-105437.00000000001,-106312.99999999999,-106863.0
+361,Fe,Iron,ref,https://janaf.nist.gov/tables/Fe-003.txt,0.0,25.094,0.0,27.320999999999998,0.0,0.0,0.0,0.0
+362,Fe,"Iron, Alpha-Delta",cr,https://janaf.nist.gov/tables/Fe-004.txt,0.0,25.094,0.0,27.320999999999998,0.0,0.0,0.0,0.0
+363,Fe,"Iron, Gamma",cr,https://janaf.nist.gov/tables/Fe-005.txt,,26.469,,35.545,,7787.999999999999,,5336.0
+364,Fe,Iron,"cr,l",https://janaf.nist.gov/tables/Fe-007.txt,0.0,25.094,0.0,27.320999999999998,0.0,0.0,0.0,0.0
+365,H2FeO2,Iron Hydroxide,cr,https://janaf.nist.gov/tables/Fe-011.txt,,97.069,,87.86399999999999,,-574045.0,,-491969.0
+366,H3FeO3,Iron Hydroxide,cr,https://janaf.nist.gov/tables/Fe-013.txt,,101.671,,104.6,,-832616.0000000001,,-705467.0
+367,FeI2,Iron Iodide,cr,https://janaf.nist.gov/tables/Fe-014.txt,,83.68,,167.36,,-104600.0,,-111725.0
+368,FeI2,Iron Iodide,"cr,l",https://janaf.nist.gov/tables/Fe-016.txt,,83.68,,167.36,,-104600.0,,-111725.0
+369,FeO,Iron Oxide,cr,https://janaf.nist.gov/tables/Fe-018.txt,,49.915,,60.751999999999995,,-272044.00000000006,,-251429.0
+370,FeO,Iron Oxide,"cr,l",https://janaf.nist.gov/tables/Fe-020.txt,,49.915,,60.751999999999995,,-272044.00000000006,,-251429.0
+371,FeO4S,Iron Sulfate,cr,https://janaf.nist.gov/tables/Fe-022.txt,0.0,100.583,0.0,120.95700000000001,-919331.0,-928848.0000000001,-919331.0,-824878.9999999999
+372,FeS,"Iron Sulfide, Troilite",cr,https://janaf.nist.gov/tables/Fe-023.txt,0.0,50.516999999999996,0.0,60.321000000000005,-102166.0,-101671.0,-102166.0,-101952.99999999999
+373,FeS,"Iron Sulfide, Troilite","cr,l",https://janaf.nist.gov/tables/Fe-025.txt,0.0,50.516999999999996,0.0,60.321000000000005,-102166.0,-101671.0,-102166.0,-101952.99999999999
+374,FeS2,"Iron Sulfide, Marcasite",cr,https://janaf.nist.gov/tables/Fe-027.txt,0.0,62.39,0.0,53.865,-163782.0,-167360.0,-163782.0,-156159.0
+375,FeS2,"Iron Sulfide, Pyrite",cr,https://janaf.nist.gov/tables/Fe-028.txt,0.0,62.123999999999995,0.0,52.916000000000004,-167855.0,-171544.0,-167855.0,-160060.0
+376,Fe2O3,"Iron Oxide, Hematite",cr,https://janaf.nist.gov/tables/Fe-030.txt,0.0,103.76299999999999,0.0,87.4,-819025.0,-825503.0,-819025.0,-743523.0
+377,Fe2O12S3,Iron Sulfate,cr,https://janaf.nist.gov/tables/Fe-031.txt,,264.722,,307.524,,-2582992.0,,-2262729.0
+378,Fe3O4,"Iron Oxide, Magnetite",cr,https://janaf.nist.gov/tables/Fe-032.txt,0.0,147.235,0.0,145.266,-1114579.0,-1120894.0,-1114579.0,-1017438.0
+379,Ga,Gallium,ref,https://janaf.nist.gov/tables/Ga-001.txt,0.0,26.064,0.0,40.838,0.0,0.0,0.0,0.0
+380,Ga,Gallium,cr,https://janaf.nist.gov/tables/Ga-002.txt,0.0,26.064,0.0,40.838,0.0,0.0,0.0,0.0
+381,Ga,Gallium,"cr,l",https://janaf.nist.gov/tables/Ga-004.txt,0.0,26.064,0.0,40.838,0.0,0.0,0.0,0.0
+382,HK,Potassium Hydride,cr,https://janaf.nist.gov/tables/H-007.txt,,37.907,,50.208,,-57820.0,,-53010.0
+383,HKO,Potassium Hydroxide,cr,https://janaf.nist.gov/tables/H-009.txt,0.0,64.89399999999999,0.0,78.907,-421223.0,-424718.0,-421223.0,-378899.0
+384,HKO,Potassium Hydroxide,"cr,l",https://janaf.nist.gov/tables/H-011.txt,0.0,64.89399999999999,0.0,78.907,-421223.0,-424718.0,-421223.0,-378899.0
+385,HLi,Lithium Hydride,cr,https://janaf.nist.gov/tables/H-014.txt,0.0,27.956999999999997,0.0,20.037,-85547.99999999999,-90625.0,-85547.99999999999,-68447.0
+386,HLi,Lithium Hydride,"cr,l",https://janaf.nist.gov/tables/H-016.txt,0.0,27.956999999999997,0.0,20.037,-85547.99999999999,-90625.0,-85547.99999999999,-68447.0
+387,HLiO,Lithium Hydroxide,cr,https://janaf.nist.gov/tables/H-018.txt,0.0,49.591,0.0,42.821000000000005,-479144.0,-484926.0,-479144.0,-438958.0
+388,HLiO,Lithium Hydroxide,"cr,l",https://janaf.nist.gov/tables/H-020.txt,0.0,49.591,0.0,42.821000000000005,-479144.0,-484926.0,-479144.0,-438958.0
+389,HNa,Sodium Hydride,cr,https://janaf.nist.gov/tables/H-031.txt,0.0,36.391999999999996,0.0,40.016,-52021.0,-56442.0,-52021.0,-33551.0
+390,HNaO,Sodium Hydroxide,cr,https://janaf.nist.gov/tables/H-033.txt,0.0,59.53,0.0,64.445,-421395.99999999994,-425931.0,-421395.99999999994,-379741.0
+391,HNaO,Sodium Hydroxide,"cr,l",https://janaf.nist.gov/tables/H-035.txt,0.0,59.53,0.0,64.445,-421395.99999999994,-425931.0,-421395.99999999994,-379741.0
+392,H2,Hydrogen,ref,https://janaf.nist.gov/tables/H-050.txt,0.0,28.836,0.0,130.68,0.0,0.0,0.0,0.0
+393,H2Mg,Magnesium Hydride,cr,https://janaf.nist.gov/tables/H-056.txt,0.0,35.334,0.0,31.090999999999998,-67997.0,-76149.0,-67997.0,-36716.0
+394,H2MgO2,Magnesium Hydroxide,cr,https://janaf.nist.gov/tables/H-057.txt,0.0,77.249,0.0,63.242,-915641.9999999999,-924664.0,-915641.9999999999,-833651.9999999999
+395,H2O2Sr,Strontium Hydroxide,cr,https://janaf.nist.gov/tables/H-071.txt,,74.89399999999999,,97.069,,-968888.9999999999,,-881098.0000000001
+396,H2O2Sr,Strontium Hydroxide,"cr,l",https://janaf.nist.gov/tables/H-073.txt,,74.89399999999999,,97.069,,-968888.9999999999,,-881098.0000000001
+397,H2O4S,Sulfuric Acid,"cr,l",https://janaf.nist.gov/tables/H-075.txt,0.0,138.584,0.0,156.895,-811968.9999999999,-813988.9999999999,-811968.9999999999,-689918.0
+398,H2O4W,Tungstic Acid,cr,https://janaf.nist.gov/tables/H-077.txt,,112.633,,144.766,,-1131772.0,,-1003905.0
+399,H2Ti,Titanium Hydride,cr,https://janaf.nist.gov/tables/H-081.txt,0.0,30.087,0.0,29.711,-135996.0,-144347.99999999997,-135996.0,-105073.0
+400,H3O4P,Phosphoric Acid,cr,https://janaf.nist.gov/tables/H-085.txt,0.0,106.064,0.0,110.544,-1265927.0,-1284375.0,-1265927.0,-1124313.9999999998
+401,H3O4P,Phosphoric Acid,"cr,l",https://janaf.nist.gov/tables/H-087.txt,0.0,106.064,0.0,110.544,-1265927.0,-1284375.0,-1265927.0,-1124313.9999999998
+402,H4IN,Ammonium Iodide,cr,https://janaf.nist.gov/tables/H-089.txt,,81.755,,112.96799999999999,,-202087.00000000003,,-111966.00000000001
+403,H4O5S,"Sulfuric Acid, Monohydrate","cr,l",https://janaf.nist.gov/tables/H-092.txt,0.0,214.264,0.0,211.51,-1126433.0,-1127621.0,-1126433.0,-950290.0
+404,H6O6S,"Sulfuric Acid, Dihydrate","cr,l",https://janaf.nist.gov/tables/H-094.txt,0.0,261.453,0.0,276.363,-1422274.0,-1427100.0,-1422274.0,-1199560.0
+405,H8O7S,"Sulfuric Acid, Trihydrate","cr,l",https://janaf.nist.gov/tables/H-095.txt,0.0,319.09,0.0,345.37300000000005,-1716249.0,-1720402.0,-1716249.0,-1443892.9999999998
+406,H10O8S,"Sulfuric Acid, Tetrahydrate","cr,l",https://janaf.nist.gov/tables/H-096.txt,0.0,386.38199999999995,0.0,414.529,-2007121.0,-2011198.9999999998,-2007121.0,-1685764.0
+407,H15O10.5S,"Sulfuric Acid, Hemihexahydrate","cr,l",https://janaf.nist.gov/tables/H-097.txt,0.0,570.279,0.0,587.819,-2727578.0,-2733261.0,-2727578.0,-2285631.0
+408,He,Helium,ref,https://janaf.nist.gov/tables/He-001.txt,0.0,20.785999999999998,0.0,126.152,0.0,0.0,0.0,0.0
+409,Hf,Hafnium,ref,https://janaf.nist.gov/tables/Hf-001.txt,0.0,25.686999999999998,0.0,43.56,0.0,0.0,0.0,0.0
+410,Hf,"Hafnium, Alpha",cr,https://janaf.nist.gov/tables/Hf-002.txt,0.0,25.686999999999998,0.0,43.56,0.0,0.0,0.0,0.0
+411,Hf,"Hafnium, Beta",cr,https://janaf.nist.gov/tables/Hf-003.txt,,17.747,,61.104,,18686.0,,13455.0
+412,Hf,Hafnium,"cr,l",https://janaf.nist.gov/tables/Hf-005.txt,0.0,25.686999999999998,0.0,43.56,0.0,0.0,0.0,0.0
+413,Hg,Mercury,ref,https://janaf.nist.gov/tables/Hg-001.txt,0.0,27.978,0.0,76.028,0.0,0.0,0.0,0.0
+414,Hg,Mercury,"cr,l",https://janaf.nist.gov/tables/Hg-002.txt,0.0,27.978,0.0,76.028,0.0,0.0,0.0,0.0
+415,HgI2,Mercury Iodide,cr,https://janaf.nist.gov/tables/Hg-006.txt,,77.747,,181.326,,-105437.00000000001,,-102204.0
+416,HgI2,Mercury Iodide,"cr,l",https://janaf.nist.gov/tables/Hg-008.txt,,77.747,,181.326,,-105437.00000000001,,-102204.0
+417,HgO,Mercury Oxide,cr,https://janaf.nist.gov/tables/Hg-010.txt,0.0,44.062,0.0,70.27,-86208.0,-90789.0,-86208.0,-58490.0
+418,Hg2I2,Mercury Iodide,cr,https://janaf.nist.gov/tables/Hg-012.txt,,105.855,,241.291,,-119085.0,,-111062.99999999999
+419,Hg2I2,Mercury Iodide,"cr,l",https://janaf.nist.gov/tables/Hg-014.txt,,105.855,,241.291,,-119085.0,,-111062.99999999999
+420,IK,Potassium Iodide,cr,https://janaf.nist.gov/tables/I-004.txt,0.0,52.777,0.0,106.387,-326930.0,-327900.0,-326930.0,-323024.0
+421,IK,Potassium Iodide,"cr,l",https://janaf.nist.gov/tables/I-006.txt,0.0,52.777,0.0,106.387,-326930.0,-327900.0,-326930.0,-323024.0
+422,ILi,Lithium Iodide,cr,https://janaf.nist.gov/tables/I-008.txt,,50.082,,85.772,,-270077.0,,-269665.0
+423,ILi,Lithium Iodide,"cr,l",https://janaf.nist.gov/tables/I-010.txt,,50.082,,85.772,,-270077.0,,-269665.0
+424,INa,Sodium Iodide,cr,https://janaf.nist.gov/tables/I-015.txt,0.0,52.225,0.0,98.5,-287336.0,-287859.00000000006,-287336.0,-284572.0
+425,INa,Sodium Iodide,"cr,l",https://janaf.nist.gov/tables/I-017.txt,0.0,52.225,0.0,98.5,-287336.0,-287859.00000000006,-287336.0,-284572.0
+426,I2,Iodine,ref,https://janaf.nist.gov/tables/I-023.txt,0.0,54.43600000000001,0.0,116.14200000000001,0.0,0.0,0.0,0.0
+427,I2,Iodine,cr,https://janaf.nist.gov/tables/I-024.txt,0.0,54.43600000000001,0.0,116.14200000000001,0.0,0.0,0.0,0.0
+428,I2,Iodine,"cr,l",https://janaf.nist.gov/tables/I-026.txt,0.0,54.43600000000001,0.0,116.14200000000001,0.0,0.0,0.0,0.0
+429,I2Mg,Magnesium Iodide,cr,https://janaf.nist.gov/tables/I-030.txt,,74.81,,129.704,,-366936.99999999994,,-361240.0
+430,I2Mg,Magnesium Iodide,"cr,l",https://janaf.nist.gov/tables/I-032.txt,,74.81,,129.704,,-366936.99999999994,,-361240.0
+431,I2Mo,"Molybdenum Iodide, Alpha",cr,https://janaf.nist.gov/tables/I-034.txt,,82.705,,149.662,,-103931.0,,-105396.0
+432,I2Pb,Lead Iodide,cr,https://janaf.nist.gov/tables/I-036.txt,0.0,77.57300000000001,0.0,174.83599999999998,-174817.0,-175393.0,-174817.0,-173577.0
+433,I2Pb,Lead Iodide,"cr,l",https://janaf.nist.gov/tables/I-038.txt,0.0,77.57300000000001,0.0,174.83599999999998,-174817.0,-175393.0,-174817.0,-173577.0
+434,I2Sr,Strontium Iodide,cr,https://janaf.nist.gov/tables/I-041.txt,0.0,77.94800000000001,0.0,159.12,-560645.0,-561493.0,-560645.0,-557702.0
+435,I2Sr,Strontium Iodide,"cr,l",https://janaf.nist.gov/tables/I-043.txt,0.0,77.94800000000001,0.0,159.12,-560645.0,-561493.0,-560645.0,-557702.0
+436,I2Ti,Titanium Iodide,cr,https://janaf.nist.gov/tables/I-045.txt,,86.228,,122.59100000000001,,-266102.00000000006,,-258854.00000000003
+437,I2Zr,Zirconium Iodide,cr,https://janaf.nist.gov/tables/I-047.txt,,94.14,,150.20600000000002,,-259408.00000000003,,-257975.00000000003
+438,I2Zr,Zirconium Iodide,"cr,l",https://janaf.nist.gov/tables/I-049.txt,,94.14,,150.20600000000002,,-259408.00000000003,,-257975.00000000003
+439,I3Mo,Molybdenum Iodide,cr,https://janaf.nist.gov/tables/I-051.txt,,108.889,,195.393,,-124683.0,,-122469.0
+440,I3Ti,Titanium Iodide,cr,https://janaf.nist.gov/tables/I-054.txt,,116.771,,192.46400000000003,,-322168.0,,-318439.0
+441,I3Zr,Zirconium Iodide,cr,https://janaf.nist.gov/tables/I-056.txt,0.0,103.818,0.0,204.585,-396545.0,-397480.0,-396545.0,-394946.99999999994
+442,I4Mo,Molybdenum Iodide,cr,https://janaf.nist.gov/tables/I-058.txt,,137.19299999999998,,266.061,,-123010.0,,-124552.0
+443,I4Si,Tetraiodosilane,cr,https://janaf.nist.gov/tables/I-061.txt,,108.035,,258.153,,-189535.0,,-191637.0
+444,I4Si,Tetraiodosilane,"cr,l",https://janaf.nist.gov/tables/I-063.txt,,108.035,,258.153,,-189535.0,,-191637.0
+445,I4Ti,Titanium Iodide,cr,https://janaf.nist.gov/tables/I-065.txt,0.0,125.62899999999999,0.0,246.15,-373638.00000000006,-375723.0,-373638.00000000006,-370686.99999999994
+446,I4Ti,Titanium Iodide,"cr,l",https://janaf.nist.gov/tables/I-067.txt,0.0,125.62899999999999,0.0,246.15,-373638.00000000006,-375723.0,-373638.00000000006,-370686.99999999994
+447,I4Zr,Zirconium Iodide,cr,https://janaf.nist.gov/tables/I-069.txt,0.0,127.8,0.0,260.27,-487236.0,-488691.0,-487236.0,-485445.99999999994
+448,K,Potassium,ref,https://janaf.nist.gov/tables/K-001.txt,0.0,29.497,0.0,64.67,0.0,0.0,0.0,0.0
+449,K,Potassium,cr,https://janaf.nist.gov/tables/K-002.txt,0.0,29.497,0.0,64.67,0.0,0.0,0.0,0.0
+450,K,Potassium,"cr,l",https://janaf.nist.gov/tables/K-004.txt,0.0,29.497,0.0,64.67,0.0,0.0,0.0,0.0
+451,KO2,Potassium Superoxide,cr,https://janaf.nist.gov/tables/K-010.txt,0.0,77.53,0.0,122.499,-285480.0,-284512.0,-285480.0,-240589.00000000003
+452,K2O,Potassium Oxide,cr,https://janaf.nist.gov/tables/K-012.txt,,83.68,,94.14,,-363171.0,,-322094.0
+453,K2O2,Potassium Peroxide,cr,https://janaf.nist.gov/tables/K-013.txt,,100.165,,112.96799999999999,,-495804.00000000006,,-429758.00000000006
+454,K2O3Si,Potassium Silicate,cr,https://janaf.nist.gov/tables/K-014.txt,0.0,118.40700000000001,0.0,146.14700000000002,-1539542.0000000002,-1548080.0,-1539542.0000000002,-1455733.0
+455,K2O3Si,Potassium Silicate,"cr,l",https://janaf.nist.gov/tables/K-016.txt,0.0,118.40700000000001,0.0,146.14700000000002,-1539542.0000000002,-1548080.0,-1539542.0000000002,-1455733.0
+456,K2O4S,"Potassium Sulfate, Alpha",cr,https://janaf.nist.gov/tables/K-017.txt,0.0,131.319,0.0,175.544,-1427198.9999999998,-1437706.0000000002,-1427198.9999999998,-1319595.0
+457,K2O4S,"Potassium Sulfate, Beta",cr,https://janaf.nist.gov/tables/K-018.txt,,138.57399999999998,,192.27900000000002,,-1424243.0,,-1311121.0
+458,K2O4S,Potassium Sulfate,"cr,l",https://janaf.nist.gov/tables/K-020.txt,0.0,131.319,0.0,175.544,-1427198.9999999998,-1437706.0000000002,-1427198.9999999998,-1319595.0
+459,K2S,Potassium Sulfide,cr,https://janaf.nist.gov/tables/K-022.txt,,74.684,,115.06,,-376560.0,,-362745.0
+460,K2S,Potassium Sulfide,"cr,l",https://janaf.nist.gov/tables/K-024.txt,,74.684,,115.06,,-376560.0,,-362745.0
+461,Kr,Krypton,ref,https://janaf.nist.gov/tables/Kr-001.txt,0.0,20.785999999999998,0.0,164.084,0.0,0.0,0.0,0.0
+462,Li,Lithium,ref,https://janaf.nist.gov/tables/Li-001.txt,0.0,24.623,0.0,29.085,0.0,0.0,0.0,0.0
+463,Li,Lithium,cr,https://janaf.nist.gov/tables/Li-002.txt,0.0,24.623,0.0,29.085,0.0,0.0,0.0,0.0
+464,Li,Lithium,"cr,l",https://janaf.nist.gov/tables/Li-004.txt,0.0,24.623,0.0,29.085,0.0,0.0,0.0,0.0
+465,Li2O,Lithium Oxide,cr,https://janaf.nist.gov/tables/Li-014.txt,0.0,54.086999999999996,0.0,37.89,-592391.9999999999,-598730.0,-592391.9999999999,-562102.0
+466,Li2O,Lithium Oxide,"cr,l",https://janaf.nist.gov/tables/Li-016.txt,0.0,54.086999999999996,0.0,37.89,-592391.9999999999,-598730.0,-592391.9999999999,-562102.0
+467,Li2O2,Lithium Peroxide,cr,https://janaf.nist.gov/tables/Li-018.txt,,70.626,,56.483999999999995,,-632621.0,,-570954.0000000001
+468,Li2O3Si,Lithium Silicate,cr,https://janaf.nist.gov/tables/Li-020.txt,0.0,100.56700000000001,0.0,80.295,-1638567.0,-1649500.0,-1638567.0,-1558739.0
+469,Li2O3Si,Lithium Silicate,"cr,l",https://janaf.nist.gov/tables/Li-022.txt,0.0,100.56700000000001,0.0,80.295,-1638567.0,-1649500.0,-1638567.0,-1558739.0
+470,Li2O3Ti,Lithium Titanium Oxide,cr,https://janaf.nist.gov/tables/Li-023.txt,0.0,109.855,0.0,91.755,-1660065.0,-1670671.0,-1660065.0,-1579767.0
+471,Li2O3Ti,Lithium Titanium Oxide,"cr,l",https://janaf.nist.gov/tables/Li-025.txt,0.0,109.855,0.0,91.755,-1660065.0,-1670671.0,-1660065.0,-1579767.0
+472,Li2O4S,"Lithium Sulfate, Alpha",cr,https://janaf.nist.gov/tables/Li-026.txt,0.0,117.60799999999999,0.0,113.947,-1423980.0,-1436367.0000000002,-1423980.0,-1321111.0
+473,Li2O4S,"Lithium Sulfate, Beta",cr,https://janaf.nist.gov/tables/Li-027.txt,,129.704,,113.802,,-1425372.9999999998,,-1310073.0
+474,Li2O4S,Lithium Sulfate,"cr,l",https://janaf.nist.gov/tables/Li-029.txt,0.0,117.60799999999999,0.0,113.947,-1423980.0,-1436367.0000000002,-1423980.0,-1321111.0
+475,Li2O5Si2,Lithium Silicate,cr,https://janaf.nist.gov/tables/Li-031.txt,,138.072,,125.52,,-2560901.0,,-2416848.0
+476,Li2O5Si2,Lithium Silicate,"cr,l",https://janaf.nist.gov/tables/Li-033.txt,,138.072,,125.52,,-2560901.0,,-2416848.0
+477,Li3N,Lithium Nitride,cr,https://janaf.nist.gov/tables/Li-034.txt,0.0,75.266,0.0,62.593,-157567.0,-164557.00000000003,-157567.0,-128639.99999999999
+478,Mg,Magnesium,ref,https://janaf.nist.gov/tables/Mg-001.txt,0.0,24.869,0.0,32.671,0.0,0.0,0.0,0.0
+479,Mg,Magnesium,cr,https://janaf.nist.gov/tables/Mg-002.txt,0.0,24.869,0.0,32.671,0.0,0.0,0.0,0.0
+480,Mg,Magnesium,"cr,l",https://janaf.nist.gov/tables/Mg-004.txt,0.0,24.869,0.0,32.671,0.0,0.0,0.0,0.0
+481,MgO,Magnesium Oxide,cr,https://janaf.nist.gov/tables/Mg-008.txt,0.0,37.106,0.0,26.924,-597060.0,-601241.0,-597060.0,-568945.0
+482,MgO,Magnesium Oxide,"cr,l",https://janaf.nist.gov/tables/Mg-010.txt,0.0,37.106,0.0,26.924,-597060.0,-601241.0,-597060.0,-568945.0
+483,MgO3Si,Magnesium Silicate,cr,https://janaf.nist.gov/tables/Mg-012.txt,0.0,81.927,0.0,67.768,-1539787.9999999998,-1548917.0000000002,-1539787.9999999998,-1462023.0
+484,MgO3Si,Magnesium Silicate,"cr,l",https://janaf.nist.gov/tables/Mg-014.txt,0.0,81.927,0.0,67.768,-1539787.9999999998,-1548917.0000000002,-1539787.9999999998,-1462023.0
+485,MgO3Ti,Magnesium Titanium Oxide,cr,https://janaf.nist.gov/tables/Mg-015.txt,0.0,91.881,0.0,74.559,-1563260.0,-1572556.0,-1563260.0,-1484128.0
+486,MgO3Ti,Magnesium Titanium Oxide,"cr,l",https://janaf.nist.gov/tables/Mg-017.txt,0.0,91.881,0.0,74.559,-1563260.0,-1572556.0,-1563260.0,-1484128.0
+487,MgO4S,Magnesium Sulfate,cr,https://janaf.nist.gov/tables/Mg-018.txt,0.0,96.23200000000001,0.0,91.396,-1250399.0,-1261786.0,-1250399.0,-1147408.0000000002
+488,MgO4S,Magnesium Sulfate,"cr,l",https://janaf.nist.gov/tables/Mg-020.txt,0.0,96.23200000000001,0.0,91.396,-1250399.0,-1261786.0,-1250399.0,-1147408.0000000002
+489,MgO4W,Magnesium Tungsten Oxide,cr,https://janaf.nist.gov/tables/Mg-021.txt,0.0,109.07700000000001,0.0,101.186,-1505744.0,-1515862.9999999998,-1505744.0,-1404224.0
+490,MgO5Ti2,Magnesium Titanium Oxide,cr,https://janaf.nist.gov/tables/Mg-022.txt,0.0,146.858,0.0,135.60299999999998,-2495427.0,-2509354.0,-2495427.0,-2368790.0
+491,MgO5Ti2,Magnesium Titanium Oxide,"cr,l",https://janaf.nist.gov/tables/Mg-024.txt,0.0,146.858,0.0,135.60299999999998,-2495427.0,-2509354.0,-2495427.0,-2368790.0
+492,MgS,Magnesium Sulfide,cr,https://janaf.nist.gov/tables/Mg-025.txt,0.0,45.56399999999999,0.0,50.333999999999996,-344647.0,-345724.0,-344647.0,-341433.00000000006
+493,Mg2O4Si,Magnesium Silicate,cr,https://janaf.nist.gov/tables/Mg-028.txt,0.0,118.68799999999999,0.0,95.14,-2163634.0,-2176935.0,-2163634.0,-2057879.0
+494,Mg2O4Si,Magnesium Silicate,"cr,l",https://janaf.nist.gov/tables/Mg-030.txt,0.0,118.68799999999999,0.0,95.14,-2163634.0,-2176935.0,-2163634.0,-2057879.0
+495,Mg2O4Ti,Magnesium Titanium Oxide,cr,https://janaf.nist.gov/tables/Mg-031.txt,0.0,128.57399999999998,0.0,115.102,-2151027.0,-2164383.0,-2151027.0,-2047719.0
+496,Mg2O4Ti,Magnesium Titanium Oxide,"cr,l",https://janaf.nist.gov/tables/Mg-033.txt,0.0,128.57399999999998,0.0,115.102,-2151027.0,-2164383.0,-2151027.0,-2047719.0
+497,Mg2Si,Magnesium Silicide,cr,https://janaf.nist.gov/tables/Mg-034.txt,,67.86399999999999,,81.58800000000001,,-77822.0,,-77055.0
+498,Mg2Si,Magnesium Silicide,"cr,l",https://janaf.nist.gov/tables/Mg-036.txt,,67.86399999999999,,81.58800000000001,,-77822.0,,-77055.0
+499,Mg3N2,Magnesium Nitride,cr,https://janaf.nist.gov/tables/Mg-037.txt,,104.516,,87.86399999999999,,-461077.0,,-400923.0
+500,Mg3O8P2,Magnesium Phosphate,cr,https://janaf.nist.gov/tables/Mg-038.txt,,212.75599999999997,,188.28,,-3745098.0,,-3502859.0000000005
+501,Mg3O8P2,Magnesium Phosphate,"cr,l",https://janaf.nist.gov/tables/Mg-040.txt,,212.75599999999997,,188.28,,-3745098.0,,-3502859.0000000005
+502,Mn,Manganese,ref,https://janaf.nist.gov/tables/Mn-001.txt,0.0,26.299,0.0,32.01,0.0,0.0,0.0,0.0
+503,Mn,Manganese,cr,https://janaf.nist.gov/tables/Mn-002.txt,0.0,26.299,0.0,32.01,0.0,0.0,0.0,0.0
+504,Mn,Manganese,"cr,l",https://janaf.nist.gov/tables/Mn-004.txt,0.0,26.299,0.0,32.01,0.0,0.0,0.0,0.0
+505,Mo,Molybdenum,ref,https://janaf.nist.gov/tables/Mo-001.txt,0.0,23.933000000000003,0.0,28.605,0.0,0.0,0.0,0.0
+506,Mo,Molybdenum,cr,https://janaf.nist.gov/tables/Mo-002.txt,0.0,23.933000000000003,0.0,28.605,0.0,0.0,0.0,0.0
+507,Mo,Molybdenum,"cr,l",https://janaf.nist.gov/tables/Mo-004.txt,0.0,23.933000000000003,0.0,28.605,0.0,0.0,0.0,0.0
+508,MoO2,Molybdenum Oxide,cr,https://janaf.nist.gov/tables/Mo-009.txt,0.0,55.898,0.0,46.458999999999996,-582903.0,-587852.0,-582903.0,-532011.0
+509,MoO2.750,Molybdenum Oxide,cr,https://janaf.nist.gov/tables/Mo-011.txt,,70.135,,69.936,,-708411.9999999999,,-636633.0
+510,MoO2.875,Molybdenum Oxide,cr,https://janaf.nist.gov/tables/Mo-012.txt,,72.508,,73.84899999999999,,-727128.0,,-652661.9999999999
+511,MoO2.889,Molybdenum Oxide,cr,https://janaf.nist.gov/tables/Mo-013.txt,,72.77199999999999,,74.281,,-729165.0,,-654461.0
+512,MoO3,Molybdenum Oxide,cr,https://janaf.nist.gov/tables/Mo-014.txt,0.0,74.881,0.0,77.76,-740150.0,-745170.0,-740150.0,-668079.0
+513,MoO3,Molybdenum Oxide,"cr,l",https://janaf.nist.gov/tables/Mo-016.txt,0.0,74.881,0.0,77.76,-740150.0,-745170.0,-740150.0,-668079.0
+514,MoS2,Molybdenum Sulfide,cr,https://janaf.nist.gov/tables/Mo-018.txt,0.0,63.555,0.0,62.571999999999996,-273314.0,-276144.0,-273314.0,-267156.0
+515,Mo2S3,Molybdenum Sulfide,cr,https://janaf.nist.gov/tables/Mo-019.txt,,109.294,,114.976,,-407103.0,,-395654.0
+516,Mo2S3,Molybdenum Sulfide,"cr,l",https://janaf.nist.gov/tables/Mo-021.txt,,109.294,,114.976,,-407103.0,,-395654.0
+517,N0.465V,Vanadium Nitride,cr,https://janaf.nist.gov/tables/N-001.txt,0.0,28.877,0.0,26.712,-130187.00000000001,-132214.0,-130187.00000000001,-118297.00000000001
+518,NTi,Titanium Nitride,cr,https://janaf.nist.gov/tables/N-014.txt,0.0,37.079,0.0,30.235,-333971.0,-337649.0,-333971.0,-308929.00000000006
+519,NTi,Titanium Nitride,"cr,l",https://janaf.nist.gov/tables/N-016.txt,0.0,37.079,0.0,30.235,-333971.0,-337649.0,-333971.0,-308929.00000000006
+520,NV,Vanadium Nitride,cr,https://janaf.nist.gov/tables/N-017.txt,0.0,37.981,0.0,37.264,-214403.0,-217150.0,-214403.0,-191067.99999999997
+521,NZr,Zirconium Nitride,cr,https://janaf.nist.gov/tables/N-019.txt,0.0,40.443000000000005,0.0,38.861,-362020.0,-365263.00000000006,-362020.0,-336696.99999999994
+522,NZr,Zirconium Nitride,"cr,l",https://janaf.nist.gov/tables/N-021.txt,0.0,40.443000000000005,0.0,38.861,-362020.0,-365263.00000000006,-362020.0,-336696.99999999994
+523,N2,Nitrogen,ref,https://janaf.nist.gov/tables/N-023.txt,0.0,29.124000000000002,0.0,191.609,0.0,0.0,0.0,0.0
+524,N2O4,Nitrogen Oxide,cr,https://janaf.nist.gov/tables/N-029.txt,0.0,122.103,0.0,150.29,-30399.0,35046.0,-30399.0,99603.0
+525,N2O4,Nitrogen Oxide,"cr,l",https://janaf.nist.gov/tables/N-031.txt,0.0,142.509,0.0,209.19799999999998,-30399.0,-19564.0,-30399.0,97521.0
+526,N4Si3,"Silicon Nitride, Alpha",cr,https://janaf.nist.gov/tables/N-035.txt,,99.53299999999999,,112.96700000000001,,-744752.0,,-647343.0000000001
+527,N5P3,Phosphorus Nitride,cr,https://janaf.nist.gov/tables/N-036.txt,,148.95,,184.09599999999998,,-320155.0,,-195482.0
+528,Na,Sodium,ref,https://janaf.nist.gov/tables/Na-001.txt,0.0,28.154,0.0,51.455,0.0,0.0,0.0,0.0
+529,Na,Sodium,cr,https://janaf.nist.gov/tables/Na-002.txt,0.0,28.154,0.0,51.455,0.0,0.0,0.0,0.0
+530,Na,Sodium,"cr,l",https://janaf.nist.gov/tables/Na-004.txt,0.0,28.154,0.0,51.455,0.0,0.0,0.0,0.0
+531,NaO2,Sodium Superoxide,cr,https://janaf.nist.gov/tables/Na-010.txt,0.0,72.141,0.0,115.897,-263884.0,-260663.0,-263884.0,-218712.00000000003
+532,Na2O,Sodium Oxide,cr,https://janaf.nist.gov/tables/Na-012.txt,0.0,69.10300000000001,0.0,75.042,-413145.99999999994,-417982.0,-413145.99999999994,-379090.0
+533,Na2O,Sodium Oxide,"cr,l",https://janaf.nist.gov/tables/Na-014.txt,0.0,69.10300000000001,0.0,75.042,-413145.99999999994,-417982.0,-413145.99999999994,-379090.0
+534,Na2O2,Sodium Peroxide,cr,https://janaf.nist.gov/tables/Na-015.txt,0.0,89.266,0.0,94.801,-507339.0,-513209.00000000006,-507339.0,-449626.99999999994
+535,Na2O3Si,Sodium Silicate,cr,https://janaf.nist.gov/tables/Na-016.txt,0.0,111.88,0.0,113.84700000000001,-1551203.0,-1561427.0000000002,-1551203.0,-1467330.0
+536,Na2O3Si,Sodium Silicate,"cr,l",https://janaf.nist.gov/tables/Na-018.txt,0.0,111.88,0.0,113.84700000000001,-1551203.0,-1561427.0000000002,-1551203.0,-1467330.0
+537,Na2O4S,"Sodium Sulfate, Delta",cr,https://janaf.nist.gov/tables/Na-019.txt,,155.812,,163.21200000000002,,-1379293.9999999998,,-1265387.0
+538,Na2O4S,"Sodium Sulfate, I",cr,https://janaf.nist.gov/tables/Na-020.txt,,159.62,,160.132,,-1380899.0,,-1266073.9999999998
+539,Na2O4S,"Sodium Sulfate, III",cr,https://janaf.nist.gov/tables/Na-021.txt,0.0,129.168,0.0,154.908,-1373707.9999999998,-1384854.0,-1373707.9999999998,-1268471.0
+540,Na2O4S,"Sodium Sulfate, IV",cr,https://janaf.nist.gov/tables/Na-022.txt,,128.143,,150.157,,-1387559.0,,-1269759.0
+541,Na2O4S,"Sodium Sulfate, V",cr,https://janaf.nist.gov/tables/Na-023.txt,0.0,128.143,0.0,149.595,-1376361.0,-1387816.0,-1376361.0,-1269849.0
+542,Na2O4S,Sodium Sulfate,"cr,l",https://janaf.nist.gov/tables/Na-025.txt,0.0,128.143,0.0,149.595,-1376361.0,-1387816.0,-1376361.0,-1269849.0
+543,Na2O4W,Sodium Tungsten Oxide,cr,https://janaf.nist.gov/tables/Na-027.txt,0.0,139.775,0.0,160.33100000000002,-1534786.0,-1544733.0,-1534786.0,-1429786.0
+544,Na2O5Si2,Sodium Silicate,cr,https://janaf.nist.gov/tables/Na-028.txt,0.0,156.984,0.0,164.055,-2455459.0,-2470066.0000000005,-2455459.0,-2324163.0
+545,Na2O5Si2,Sodium Silicate,"cr,l",https://janaf.nist.gov/tables/Na-030.txt,0.0,156.984,0.0,164.055,-2455459.0,-2470066.0000000005,-2455459.0,-2324163.0
+546,Na2S,Sodium Sulfide,cr,https://janaf.nist.gov/tables/Na-031.txt,,82.801,,96.23200000000001,,-366100.0,,-354551.99999999994
+547,Na2S,Sodium Sulfide,"cr,l",https://janaf.nist.gov/tables/Na-033.txt,,82.801,,96.23200000000001,,-366100.0,,-354551.99999999994
+548,Na2S2,"Sodium Sulfide, Beta",cr,https://janaf.nist.gov/tables/Na-034.txt,,98.625,,150.624,,-397061.99999999994,,-392173.0
+549,Na2S2,Sodium Sulfide,"cr,l",https://janaf.nist.gov/tables/Na-036.txt,,98.625,,150.624,,-397061.99999999994,,-392173.0
+550,Nb,Niobium,ref,https://janaf.nist.gov/tables/Nb-001.txt,0.0,24.694000000000003,0.0,36.464,0.0,0.0,0.0,0.0
+551,Nb,Niobium,cr,https://janaf.nist.gov/tables/Nb-002.txt,0.0,24.694000000000003,0.0,36.464,0.0,0.0,0.0,0.0
+552,Nb,Niobium,"cr,l",https://janaf.nist.gov/tables/Nb-004.txt,0.0,24.694000000000003,0.0,36.464,0.0,0.0,0.0,0.0
+553,NbO,Niobium Oxide,cr,https://janaf.nist.gov/tables/Nb-008.txt,,41.111999999999995,,46.023999999999994,,-419655.0,,-391923.0
+554,NbO,Niobium Oxide,"cr,l",https://janaf.nist.gov/tables/Nb-010.txt,,41.111999999999995,,46.023999999999994,,-419655.0,,-391923.0
+555,NbO2,Niobium Oxide,cr,https://janaf.nist.gov/tables/Nb-012.txt,0.0,57.452,0.0,54.506,-790308.0,-794960.0,-790308.0,-739175.0
+556,NbO2,Niobium Oxide,"cr,l",https://janaf.nist.gov/tables/Nb-014.txt,0.0,57.452,0.0,54.506,-790308.0,-794960.0,-790308.0,-739175.0
+557,Nb2O5,Niobium Oxide,cr,https://janaf.nist.gov/tables/Nb-016.txt,0.0,131.988,0.0,137.298,-1889634.0,-1899536.0,-1889634.0,-1765817.0
+558,Nb2O5,Niobium Oxide,"cr,l",https://janaf.nist.gov/tables/Nb-018.txt,0.0,131.988,0.0,137.298,-1889634.0,-1899536.0,-1889634.0,-1765817.0
+559,Ne,Neon,ref,https://janaf.nist.gov/tables/Ne-001.txt,0.0,20.785999999999998,0.0,146.327,0.0,0.0,0.0,0.0
+560,Ni,Nickel,ref,https://janaf.nist.gov/tables/Ni-001.txt,0.0,25.987,0.0,29.87,0.0,0.0,0.0,0.0
+561,Ni,Nickel,cr,https://janaf.nist.gov/tables/Ni-002.txt,0.0,25.987,0.0,29.87,0.0,0.0,0.0,0.0
+562,Ni,Nickel,"cr,l",https://janaf.nist.gov/tables/Ni-004.txt,0.0,25.987,0.0,29.87,0.0,0.0,0.0,0.0
+563,NiS,Nickel Sulfide,cr,https://janaf.nist.gov/tables/Ni-008.txt,0.0,47.111999999999995,0.0,52.992,-87131.0,-87863.99999999999,-87131.0,-85200.0
+564,NiS,Nickel Sulfide,"cr,l",https://janaf.nist.gov/tables/Ni-010.txt,0.0,47.111999999999995,0.0,52.992,-87131.0,-87863.99999999999,-87131.0,-85200.0
+565,NiS2,Nickel Sulfide,cr,https://janaf.nist.gov/tables/Ni-012.txt,,70.626,,71.965,,-131378.0,,-124812.99999999999
+566,NiS2,Nickel Sulfide,"cr,l",https://janaf.nist.gov/tables/Ni-014.txt,,70.626,,71.965,,-131378.0,,-124812.99999999999
+567,Ni3S2,Nickel Sulfide,cr,https://janaf.nist.gov/tables/Ni-015.txt,0.0,117.738,0.0,133.887,-214287.99999999997,-216313.0,-214287.99999999997,-210399.0
+568,Ni3S2,Nickel Sulfide,"cr,l",https://janaf.nist.gov/tables/Ni-017.txt,0.0,117.738,0.0,133.887,-214287.99999999997,-216313.0,-214287.99999999997,-210399.0
+569,Ni3S4,Nickel Sulfide,cr,https://janaf.nist.gov/tables/Ni-018.txt,,164.808,,186.481,,-301115.0,,-291767.0
+570,OPb,"Lead Oxide, Red",cr,https://janaf.nist.gov/tables/O-005.txt,0.0,45.773,0.0,66.316,-217297.0,-219409.00000000003,-217297.0,-189283.0
+571,OPb,"Lead Oxide, Yellow",cr,https://janaf.nist.gov/tables/O-006.txt,0.0,45.773,0.0,68.70100000000001,-216080.0,-218062.0,-216080.0,-188647.00000000003
+572,OPb,Lead Oxide,"cr,l",https://janaf.nist.gov/tables/O-008.txt,0.0,45.773,0.0,66.316,-217297.0,-219409.00000000003,-217297.0,-189283.0
+573,OSr,Strontium Oxide,cr,https://janaf.nist.gov/tables/O-013.txt,0.0,45.409,0.0,55.522,-589800.9999999999,-592036.0,-589800.9999999999,-561401.9999999999
+574,OSr,Strontium Oxide,"cr,l",https://janaf.nist.gov/tables/O-015.txt,0.0,45.409,0.0,55.522,-589800.9999999999,-592036.0,-589800.9999999999,-561401.9999999999
+575,OTi,"Titanium Oxide, Alpha",cr,https://janaf.nist.gov/tables/O-018.txt,0.0,39.957,0.0,34.769,-539668.0,-542665.0,-539668.0,-513278.0
+576,OTi,"Titanium Oxide, Beta",cr,https://janaf.nist.gov/tables/O-019.txt,,39.957,,38.077,,-538481.0,,-510080.0
+577,OTi,Titanium Oxide,"cr,l",https://janaf.nist.gov/tables/O-021.txt,0.0,39.957,0.0,34.769,-539668.0,-542665.0,-539668.0,-513278.0
+578,OV,Vanadium Oxide,cr,https://janaf.nist.gov/tables/O-023.txt,0.0,45.501000000000005,0.0,39.010999999999996,-429715.0,-431789.0,-429715.0,-404210.0
+579,OV,Vanadium Oxide,"cr,l",https://janaf.nist.gov/tables/O-025.txt,0.0,45.501000000000005,0.0,39.010999999999996,-429715.0,-431789.0,-429715.0,-404210.0
+580,O2,Oxygen,ref,https://janaf.nist.gov/tables/O-029.txt,0.0,29.375999999999998,0.0,205.14700000000002,0.0,0.0,0.0,0.0
+581,O2Pb,Lead Oxide,cr,https://janaf.nist.gov/tables/O-033.txt,0.0,61.17,0.0,71.797,-269874.0,-274470.0,-269874.0,-215397.00000000003
+582,O2Si,"Silicon Oxide, Cristobalite, High",cr,https://janaf.nist.gov/tables/O-035.txt,,26.581,,50.053000000000004,,-905488.9999999999,,-853636.0000000001
+583,O2Si,"Silicon Oxide, Cristobalite, Low",cr,https://janaf.nist.gov/tables/O-036.txt,0.0,44.953,0.0,43.396,-903482.0,-908346.0,-903482.0,-854508.9999999999
+584,O2Si,"Silicon Oxide, Quartz",cr,https://janaf.nist.gov/tables/O-037.txt,0.0,44.589,0.0,41.463,-905872.0,-910857.0,-905872.0,-856443.0
+585,O2Si,Silicon Oxide,"cr,l",https://janaf.nist.gov/tables/O-039.txt,0.0,44.589,0.0,41.463,-905872.0,-910857.0,-905872.0,-856443.0
+586,O2Ti,"Titanium Oxide, Anatase",cr,https://janaf.nist.gov/tables/O-042.txt,0.0,55.271,0.0,49.907,-933837.0,-938722.0,-933837.0,-883266.0000000001
+587,O2Ti,"Titanium Oxide, Rutile",cr,https://janaf.nist.gov/tables/O-043.txt,0.0,55.103,0.0,50.292,-939870.0,-944747.0,-939870.0,-889406.0000000001
+588,O2Ti,Titanium Oxide,"cr,l",https://janaf.nist.gov/tables/O-045.txt,0.0,55.103,0.0,50.292,-939870.0,-944747.0,-939870.0,-889406.0000000001
+589,O2W,Tungsten Oxide,cr,https://janaf.nist.gov/tables/O-047.txt,0.0,55.739,0.0,50.528,-584745.0,-589693.0,-584745.0,-533856.0
+590,O2.72W,Tungsten Oxide,cr,https://janaf.nist.gov/tables/O-049.txt,,68.283,,68.425,,-781153.0,,-708632.0
+591,O2.90W,Tungsten Oxide,cr,https://janaf.nist.gov/tables/O-050.txt,,71.37899999999999,,73.37100000000001,,-820064.0,,-743513.0
+592,O2.96W,Tungsten Oxide,cr,https://janaf.nist.gov/tables/O-051.txt,,72.383,,74.89399999999999,,-834959.0,,-757026.9999999999
+593,O2Zr,Zirconium Oxide,cr,https://janaf.nist.gov/tables/O-052.txt,0.0,56.191,0.0,50.358999999999995,-1092032.0,-1097463.0,-1092032.0,-1039723.9999999999
+594,O2Zr,Zirconium Oxide,"cr,l",https://janaf.nist.gov/tables/O-054.txt,0.0,56.191,0.0,50.358999999999995,-1092032.0,-1097463.0,-1092032.0,-1039723.9999999999
+595,O3PbSi,Lead Silicate,cr,https://janaf.nist.gov/tables/O-057.txt,0.0,90.04,0.0,109.927,-1138091.0000000002,-1144993.0,-1138091.0000000002,-1061094.0
+596,O3Ti2,Titanium Oxide,cr,https://janaf.nist.gov/tables/O-059.txt,0.0,95.814,0.0,77.253,-1512287.0,-1520884.0,-1512287.0,-1433829.0
+597,O3Ti2,Titanium Oxide,"cr,l",https://janaf.nist.gov/tables/O-061.txt,0.0,95.814,0.0,77.253,-1512287.0,-1520884.0,-1512287.0,-1433829.0
+598,O3V2,Vanadium Oxide,cr,https://janaf.nist.gov/tables/O-062.txt,0.0,104.963,0.0,98.06700000000001,-1213971.0,-1218799.0,-1213971.0,-1139036.0
+599,O3V2,Vanadium Oxide,"cr,l",https://janaf.nist.gov/tables/O-064.txt,0.0,104.963,0.0,98.06700000000001,-1213971.0,-1218799.0,-1213971.0,-1139036.0
+600,O3W,Tungsten Oxide,cr,https://janaf.nist.gov/tables/O-065.txt,0.0,73.139,0.0,75.91199999999999,-837258.9999999999,-842909.0,-837258.9999999999,-764057.0
+601,O3W,Tungsten Oxide,"cr,l",https://janaf.nist.gov/tables/O-067.txt,0.0,73.139,0.0,75.91199999999999,-837258.9999999999,-842909.0,-837258.9999999999,-764057.0
+602,O4Pb2Si,Lead Silicate,cr,https://janaf.nist.gov/tables/O-069.txt,0.0,136.984,0.0,186.832,-1369466.0000000002,-1377875.0,-1369466.0000000002,-1267007.0
+603,O4Pb3,Lead Oxide,cr,https://janaf.nist.gov/tables/O-070.txt,0.0,154.934,0.0,211.96099999999998,-710871.0000000001,-718686.0,-710871.0000000001,-601606.0
+604,O4SZn,Zinc Sulfate,cr,https://janaf.nist.gov/tables/O-071.txt,0.0,99.035,0.0,110.541,-969934.0,-980143.9999999999,-969934.0,-868776.9999999999
+605,O4SiZr,Zirconium Silicate,cr,https://janaf.nist.gov/tables/O-072.txt,0.0,98.65899999999999,0.0,84.02600000000001,-2012774.0,-2023951.0,-2012774.0,-1909475.0
+606,O4V2,Vanadium Oxide,cr,https://janaf.nist.gov/tables/O-073.txt,0.0,115.399,0.0,103.525,-1418617.0000000002,-1427162.0,-1418617.0000000002,-1318445.0
+607,O4V2,Vanadium Oxide,"cr,l",https://janaf.nist.gov/tables/O-075.txt,0.0,115.399,0.0,103.525,-1418617.0000000002,-1427162.0,-1418617.0000000002,-1318445.0
+608,O5Ta2,Tantalum Oxide,cr,https://janaf.nist.gov/tables/O-077.txt,0.0,135.034,0.0,143.114,-2035947.0,-2045976.0,-2035947.0,-1911004.0
+609,O5Ta2,Tantalum Oxide,"cr,l",https://janaf.nist.gov/tables/O-079.txt,0.0,135.034,0.0,143.114,-2035947.0,-2045976.0,-2035947.0,-1911004.0
+610,O5Ti3,"Titanium Oxide, Alpha",cr,https://janaf.nist.gov/tables/O-080.txt,0.0,154.808,0.0,129.369,-2446057.0000000005,-2459146.0,-2446057.0000000005,-2317292.9999999995
+611,O5Ti3,"Titanium Oxide, Beta",cr,https://janaf.nist.gov/tables/O-081.txt,,173.96200000000002,,157.61700000000002,,-2446189.0,,-2312759.0
+612,O5Ti3,Titanium Oxide,"cr,l",https://janaf.nist.gov/tables/O-083.txt,0.0,154.808,0.0,129.369,-2446057.0000000005,-2459146.0,-2446057.0000000005,-2317292.9999999995
+613,O5V2,Vanadium Oxide,cr,https://janaf.nist.gov/tables/O-084.txt,0.0,130.599,0.0,130.549,-1541109.0,-1550590.0,-1541109.0,-1419348.0
+614,O5V2,Vanadium Oxide,"cr,l",https://janaf.nist.gov/tables/O-086.txt,0.0,130.599,0.0,130.549,-1541109.0,-1550590.0,-1541109.0,-1419348.0
+615,O7Ti4,Titanium Oxide,cr,https://janaf.nist.gov/tables/O-089.txt,,208.489,,198.74,,-3404520.9999999995,,-3213015.9999999995
+616,O7Ti4,Titanium Oxide,"cr,l",https://janaf.nist.gov/tables/O-091.txt,,208.489,,198.74,,-3404520.9999999995,,-3213015.9999999995
+617,O10P4,Phosphorus Oxide,cr,https://janaf.nist.gov/tables/O-094.txt,0.0,211.71,0.0,228.78099999999998,-2979040.9999999995,-3009935.9999999995,-2979040.9999999995,-2723335.0
+618,P,Phosphorus,ref,https://janaf.nist.gov/tables/P-001.txt,0.0,23.825,0.0,41.077,0.0,0.0,0.0,0.0
+619,P,"Phosphorus, White",cr,https://janaf.nist.gov/tables/P-002.txt,0.0,23.825,0.0,41.077,0.0,0.0,0.0,0.0
+620,P,Phosphorus,"cr,l",https://janaf.nist.gov/tables/P-004.txt,0.0,23.825,0.0,41.077,0.0,0.0,0.0,0.0
+621,P,"Phosphorus, Red, IV",cr,https://janaf.nist.gov/tables/P-005.txt,0.0,21.263,0.0,23.197,-10714.0,-12439.0,-10714.0,-7108.0
+622,P,"Phosphorus, Red, V",cr,https://janaf.nist.gov/tables/P-006.txt,0.0,21.186999999999998,0.0,22.853,-15707.0,-17460.0,-15707.0,-12026.0
+623,P,"Phosphorus, Black",cr,https://janaf.nist.gov/tables/P-007.txt,0.0,21.546999999999997,0.0,22.586,-11151.0,-12851.0,-11151.0,-7337.999999999999
+624,P4S3,Phosphorus Sulfide,cr,https://janaf.nist.gov/tables/P-014.txt,,146.44,,200.832,,-224647.00000000003,,-206864.0
+625,P4S3,Phosphorus Sulfide,"cr,l",https://janaf.nist.gov/tables/P-016.txt,,146.44,,200.832,,-224647.00000000003,,-206864.0
+626,Pb,Lead,ref,https://janaf.nist.gov/tables/Pb-001.txt,0.0,26.836,0.0,64.785,0.0,0.0,0.0,0.0
+627,Pb,Lead,cr,https://janaf.nist.gov/tables/Pb-002.txt,0.0,26.836,0.0,64.785,0.0,0.0,0.0,0.0
+628,Pb,Lead,"cr,l",https://janaf.nist.gov/tables/Pb-004.txt,0.0,26.836,0.0,64.785,0.0,0.0,0.0,0.0
+629,PbS,Lead Sulfide,cr,https://janaf.nist.gov/tables/Pb-008.txt,0.0,49.438,0.0,91.34299999999999,-98545.0,-98324.0,-98545.0,-96685.0
+630,PbS,Lead Sulfide,"cr,l",https://janaf.nist.gov/tables/Pb-010.txt,0.0,49.438,0.0,91.34299999999999,-98545.0,-98324.0,-98545.0,-96685.0
+631,Rb,Rubidium,ref,https://janaf.nist.gov/tables/Rb-001.txt,0.0,31.061999999999998,0.0,76.778,0.0,0.0,0.0,0.0
+632,Rb,Rubidium,cr,https://janaf.nist.gov/tables/Rb-002.txt,0.0,31.061999999999998,0.0,76.778,0.0,0.0,0.0,0.0
+633,Rb,Rubidium,"cr,l",https://janaf.nist.gov/tables/Rb-004.txt,0.0,31.061999999999998,0.0,76.778,0.0,0.0,0.0,0.0
+634,Rn,Radon,ref,https://janaf.nist.gov/tables/Rn-001.txt,0.0,20.785999999999998,0.0,176.235,0.0,0.0,0.0,0.0
+635,S,"Sulfur, Orthorhombic",cr,https://janaf.nist.gov/tables/S-002.txt,0.0,22.698,0.0,32.056,0.0,0.0,0.0,0.0
+636,S,"Sulfur, Monoclinic",cr,https://janaf.nist.gov/tables/S-003.txt,0.0,23.225,0.0,33.028,247.0,360.0,247.0,70.0
+637,S,Sulfur,"cr,l",https://janaf.nist.gov/tables/S-005.txt,0.0,22.698,0.0,32.056,0.0,0.0,0.0,0.0
+638,SSr,Strontium Sulfide,cr,https://janaf.nist.gov/tables/S-010.txt,0.0,48.702,0.0,68.41,-467438.00000000006,-468608.0,-467438.00000000006,-462842.0
+639,S2Si,Silicon Sulfide,cr,https://janaf.nist.gov/tables/S-013.txt,,77.488,,80.333,,-213384.0,,-212609.0
+640,S2Si,Silicon Sulfide,"cr,l",https://janaf.nist.gov/tables/S-015.txt,,77.488,,80.333,,-213384.0,,-212609.0
+641,Si,Silicon,ref,https://janaf.nist.gov/tables/Si-001.txt,0.0,20.0,0.0,18.82,0.0,0.0,0.0,0.0
+642,Si,Silicon,cr,https://janaf.nist.gov/tables/Si-002.txt,0.0,20.0,0.0,18.82,0.0,0.0,0.0,0.0
+643,Si,Silicon,"cr,l",https://janaf.nist.gov/tables/Si-004.txt,0.0,20.0,0.0,18.82,0.0,0.0,0.0,0.0
+644,Sr,Strontium,ref,https://janaf.nist.gov/tables/Sr-001.txt,0.0,26.791,0.0,55.693999999999996,0.0,0.0,0.0,0.0
+645,Sr,"Strontium, Alpha",cr,https://janaf.nist.gov/tables/Sr-002.txt,0.0,26.791,0.0,55.693999999999996,0.0,0.0,0.0,0.0
+646,Sr,"Strontium, Beta",cr,https://janaf.nist.gov/tables/Sr-003.txt,,27.607,,57.175,,1210.9999999999998,,770.0
+647,Sr,Strontium,"cr,l",https://janaf.nist.gov/tables/Sr-005.txt,0.0,26.791,0.0,55.693999999999996,0.0,0.0,0.0,0.0
+648,Ta,Tantalum,ref,https://janaf.nist.gov/tables/Ta-001.txt,0.0,25.295,0.0,41.471000000000004,0.0,0.0,0.0,0.0
+649,Ta,Tantalum,cr,https://janaf.nist.gov/tables/Ta-002.txt,0.0,25.295,0.0,41.471000000000004,0.0,0.0,0.0,0.0
+650,Ta,Tantalum,"cr,l",https://janaf.nist.gov/tables/Ta-004.txt,0.0,25.295,0.0,41.471000000000004,0.0,0.0,0.0,0.0
+651,Ti,Titanium,ref,https://janaf.nist.gov/tables/Ti-001.txt,0.0,25.238000000000003,0.0,30.759,0.0,0.0,0.0,0.0
+652,Ti,"Titanium, Alpha",cr,https://janaf.nist.gov/tables/Ti-002.txt,0.0,25.238000000000003,0.0,30.759,0.0,0.0,0.0,0.0
+653,Ti,"Titanium, Beta",cr,https://janaf.nist.gov/tables/Ti-003.txt,,23.995,,38.122,,6860.0,,4665.0
+654,Ti,Titanium,"cr,l",https://janaf.nist.gov/tables/Ti-005.txt,0.0,25.238000000000003,0.0,30.759,0.0,0.0,0.0,0.0
+655,V,Vanadium,ref,https://janaf.nist.gov/tables/V-001.txt,0.0,24.896,0.0,28.936,0.0,0.0,0.0,0.0
+656,V,Vanadium,cr,https://janaf.nist.gov/tables/V-002.txt,0.0,24.896,0.0,28.936,0.0,0.0,0.0,0.0
+657,V,Vanadium,"cr,l",https://janaf.nist.gov/tables/V-004.txt,0.0,24.896,0.0,28.936,0.0,0.0,0.0,0.0
+658,W,Tungsten,ref,https://janaf.nist.gov/tables/W-001.txt,0.0,24.295,0.0,32.66,0.0,0.0,0.0,0.0
+659,W,Tungsten,cr,https://janaf.nist.gov/tables/W-002.txt,0.0,24.295,0.0,32.66,0.0,0.0,0.0,0.0
+660,W,Tungsten,"cr,l",https://janaf.nist.gov/tables/W-004.txt,0.0,24.295,0.0,32.66,0.0,0.0,0.0,0.0
+661,Xe,Xenon,ref,https://janaf.nist.gov/tables/Xe-001.txt,0.0,20.785999999999998,0.0,169.68400000000003,0.0,0.0,0.0,0.0
+662,Zn,Zinc,ref,https://janaf.nist.gov/tables/Zn-001.txt,0.0,25.386999999999997,0.0,41.717,0.0,0.0,0.0,0.0
+663,Zn,Zinc,cr,https://janaf.nist.gov/tables/Zn-002.txt,0.0,25.386999999999997,0.0,41.717,0.0,0.0,0.0,0.0
+664,Zn,Zinc,"cr,l",https://janaf.nist.gov/tables/Zn-004.txt,0.0,25.386999999999997,0.0,41.717,0.0,0.0,0.0,0.0
+665,Zr,Zirconium,ref,https://janaf.nist.gov/tables/Zr-001.txt,0.0,25.201999999999998,0.0,38.869,0.0,0.0,0.0,0.0
+666,Zr,"Zirconium, Alpha",cr,https://janaf.nist.gov/tables/Zr-002.txt,0.0,25.201999999999998,0.0,38.869,0.0,0.0,0.0,0.0
+667,Zr,"Zirconium, Beta",cr,https://janaf.nist.gov/tables/Zr-003.txt,,25.201999999999998,,43.192,,4810.0,,3521.0000000000005
+668,Zr,Zirconium,"cr,l",https://janaf.nist.gov/tables/Zr-005.txt,0.0,25.201999999999998,0.0,38.869,0.0,0.0,0.0,0.0
